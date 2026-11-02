@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "measured_positions.csv",
+    "fixed_feature_tracking.csv"
+  ],
+  "whiskers": "10th--90th percentile of 16 within-file temporal PSD bins; no independent-repeat CI",
+  "cells": "1 = local contrast and enhancement relative to the preceding base both >=6 dB; 0 otherwise",
+  "template": "Four B01 peaks frozen across all positions; base is not a verified OFF state",
+  "printed_width_in": 6.258405977584061
+}

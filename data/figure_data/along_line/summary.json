@@ -1,0 +1,144 @@
+{
+  "records": 10,
+  "positions_m": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "frequency_grid_hz": 305.17578125,
+  "selected_first_position_features": 4,
+  "retained_features_by_position": [
+    4,
+    3,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3
+  ],
+  "retained_feature_position_pairs": 36,
+  "total_feature_position_pairs": 40,
+  "features_retained_at_every_position": 3,
+  "power_span_db": 9.976366824338776,
+  "power_10m_minus_1m_db": 0.28403210671790546,
+  "maximum_recorded_feature_shift_hz": 0.0,
+  "first_record_within_file_q90_minus_q10_db": 5.338736649961174,
+  "first_record_last_minus_first_temporal_bin_db": 5.902317936924536,
+  "sensitivity_10m": [
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 101,
+      "threshold_db": 3,
+      "reference_features": 4,
+      "retained_features": 4,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 101,
+      "threshold_db": 6,
+      "reference_features": 4,
+      "retained_features": 3,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 101,
+      "threshold_db": 10,
+      "reference_features": 4,
+      "retained_features": 1,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 201,
+      "threshold_db": 3,
+      "reference_features": 4,
+      "retained_features": 4,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 201,
+      "threshold_db": 6,
+      "reference_features": 4,
+      "retained_features": 3,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 201,
+      "threshold_db": 10,
+      "reference_features": 4,
+      "retained_features": 1,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 401,
+      "threshold_db": 3,
+      "reference_features": 4,
+      "retained_features": 4,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 401,
+      "threshold_db": 6,
+      "reference_features": 4,
+      "retained_features": 3,
+      "reference_refitted": false
+    },
+    {
+      "record_id": "B10",
+      "distance_m": 10,
+      "median_bins": 401,
+      "threshold_db": 10,
+      "reference_features": 4,
+      "retained_features": 1,
+      "reference_refitted": false
+    }
+  ],
+  "interpretation": "Three fixed spectral locations remain observable at all ten along-line positions while amplitudes vary non-monotonically. This supports structural feature tracking in this deployment; it does not identify the coupling path, supply appliance-specific OFF evidence, or constitute a cable-length intervention.",
+  "limitations": [
+    "One sequential recording per position, position/time confounded",
+    "Gain and channel order not independently documented",
+    "A09 is a preceding base, not a verified charger-OFF record",
+    "The 16 temporal bins are within-record fluctuations, not independent spatial repetitions",
+    "These are receiver positions along an existing line, not appliance cord lengths"
+  ],
+  "source_manifest": {
+    "quantitative_metrics.csv": "3ffdeba05b935082b7f1f1b5139e06ea9944f1f041fd0e8b852f2c60f1355b58",
+    "feature_tracking.csv": "f1e0f6409ca173254d5751de45d83ac8293679799f08606de273bb37199029f1",
+    "feature_definitions.csv": "1697095c106721857c0061ba73388c571d2d83f1f28ccabd3cb76834def555da",
+    "output\\A09_spectra.npz": "bc6ff437251b7a6d53f633d9467e0ff4cf7a31fb69e7277d3e7ad15171587057",
+    "output\\B01_spectra.npz": "ab890234d7109a6fff762c5e574755f3f9166347a062e774146940fe224deb89",
+    "output\\B02_spectra.npz": "94dd3143842e456b18a9c59d92d987a9d4ffc2cb7c1d519bc9196478b00f449b",
+    "output\\B03_spectra.npz": "4bcbbb26d2298b65b91afd6c15691103a84eea9596c2a78acc105edd6e38b74c",
+    "output\\B04_spectra.npz": "6910234b6d6bdbd53bb0dba4e054af36917f17885c883e428222e678528f1e1d",
+    "output\\B05_spectra.npz": "f9f2b071b8e77993a75db32dc062fedcc89fa0b5c0d32e5b9fcae8898809a841",
+    "output\\B06_spectra.npz": "95a68cc4b721629bb67e3498a695d207ac67c8be1690246a888250514ed54395",
+    "output\\B07_spectra.npz": "955acb3767d3c145d1cdff422489ca704c9e5334eec1c04f2eff1a58109c1076",
+    "output\\B08_spectra.npz": "84fafa0137a5a73c85da367a9c58eb5cb042ca86cbf01392caa7560284067993",
+    "output\\B09_spectra.npz": "f1c54f42a5531922c983dc129659a0627c486fbca03b08370f9c95656e4f086a",
+    "output\\B10_spectra.npz": "c2d202b9a9e8cc40945be5e10f8abe5378d3010132c9ef25eae4467de93cdec4"
+  }
+}

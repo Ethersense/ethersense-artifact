@@ -1,7 +1,7 @@
 # EtherSense Artifact
 
 Major-revision measurement code and recorded data for EtherSense.
-Repository: https://github.com/Ethersense/ethersense-artifact
+Repository: https://anonymous.4open.science/r/ethersense-artifact-236E/
 
 ## This release
 
@@ -31,8 +31,7 @@ release policy.
 Python 3.10+ is sufficient for inventory validation (standard library only). Git LFS stores the ZIPs.
 
 ```sh
-git clone https://github.com/Ethersense/ethersense-artifact.git
-cd ethersense-artifact
+# In an existing clone (or download and extract the anonymous repository ZIP):
 git lfs install
 git lfs pull
 python scripts/assemble_data.py
@@ -69,7 +68,7 @@ This artifact is published anonymously. If you use the released recordings or th
 please cite the repository:
 
 > Anonymous. *EtherSense Artifact: Released Recordings, Analysis Code and Revision Workspace*.
-> GitHub, 2026. <https://github.com/Ethersense/ethersense-artifact>
+> GitHub, 2026. <https://anonymous.4open.science/r/ethersense-artifact-236E/>
 
 ```bibtex
 @misc{ethersense_artifact_2026,
@@ -78,7 +77,7 @@ please cite the repository:
   year         = {2026},
   month        = nov,
   publisher    = {GitHub},
-  howpublished = {\url{https://github.com/Ethersense/ethersense-artifact}},
+  howpublished = {\url{https://anonymous.4open.science/r/ethersense-artifact-236E/}},
   note         = {Anonymous research artifact accompanying the IMWUT submission
                   ``Lens-Free, Plug-Free, and Retrofit-Free: Repurposing Wi-Fi APs
                   into Ubiquitous Electrical Sentinels''}
@@ -94,5 +93,8 @@ Data and code are being uploaded progressively. The following additional measure
 | Dataset | Valid recordings | Reconstructed archive |
 |---|---:|---|
 | `parallel_load_states` | 4 | `data/raw/parallel_load_states/parallel_load_states.zip` |
+| `along_line_1to10m` | 10 | `data/raw/along_line_1to10m/along_line_1to10m.zip` |
 
 The ten original cable-length and new-wall WAVs remain available in the two original LFS archives. Withdrawn or invalid cohorts are excluded. The released measurements do not constitute the complete original recognition dataset.
+
+[Figure-to-data index](docs/figure_data_map.md) | [Anonymous review access](https://anonymous.4open.science/r/ethersense-artifact-236E/)
