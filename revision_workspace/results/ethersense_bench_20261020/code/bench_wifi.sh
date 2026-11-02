@@ -1,7 +1,7 @@
 #!/bin/sh
 # EtherSense C3/C11: does HackRF 20 MS/s capture on the GL-MT3000 change its Wi-Fi throughput?
-# Wi-Fi path: MT3000 radio (apcli0, 2.4 GHz ch1) -> upstream AP -> HUGO WLAN 192.168.31.175.
-# Wired control: MT3000 br-lan -> HUGO Ethernet 192.168.8.170. Conditions alternate per repetition.
+# Wi-Fi path: MT3000 radio (apcli0, 2.4 GHz ch1) -> upstream AP -> MEASUREMENT_PC WLAN 192.168.31.175.
+# Wired control: MT3000 br-lan -> MEASUREMENT_PC Ethernet 192.168.8.170. Conditions alternate per repetition.
 OUT=/tmp/es_bench; BIN=/root/ethersense/bin; WIFI=192.168.31.175; WIRED=192.168.8.170
 mkdir -p $OUT; cd $OUT || exit 1
 exec >run.log 2>&1

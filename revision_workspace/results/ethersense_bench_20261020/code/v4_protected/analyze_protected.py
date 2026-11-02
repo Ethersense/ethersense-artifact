@@ -129,7 +129,7 @@ def main():
     report["summaries"] = summaries
     lines.extend(["", f"健康监测：{len(samples)} 条；开机时长回退 {reboots} 次。",
                   "", "本组采用主动风扇降温和短时测试，与前两轮独立报告。测试项目以 design.json 为准。",
-                  "链路为 MT3000 STA 经上游 AP 到 HUGO；外置 LNA 供电状态按现场确认另记。",
+                  "链路为 MT3000 STA 经上游 AP 到 MEASUREMENT_PC；外置 LNA 供电状态按现场确认另记。",
                   "小样本差值仅描述本轮观测，不能据此宣称性能等效或采集提高吞吐。"])
     (output / "summary.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     (output / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

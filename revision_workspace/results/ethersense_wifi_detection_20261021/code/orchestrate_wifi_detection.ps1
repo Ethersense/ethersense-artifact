@@ -1,4 +1,4 @@
-# Run ON HUGO. Short isolated trials, no wired stress, stop at the first anomaly.
+# Run ON MEASUREMENT_PC. Short isolated trials, no wired stress, stop at the first anomaly.
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version 2
 $root = Join-Path $env:USERPROFILE 'Desktop\EtherSense'
@@ -128,7 +128,7 @@ try {
     if ($others.Count -gt 0) { throw 'Another EtherSense orchestrator exists; refusing concurrent test' }
     $script:iperfExe = (Get-Command iperf3).Source
     $wifiAddresses = @(Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.IPAddress -like '192.168.31.*' -and $_.AddressState -eq 'Preferred' })
-    if ($wifiAddresses.Count -ne 1) { throw 'Expected exactly one HUGO upstream Wi-Fi IPv4 address; refusing to change network' }
+    if ($wifiAddresses.Count -ne 1) { throw 'Expected exactly one MEASUREMENT_PC upstream Wi-Fi IPv4 address; refusing to change network' }
     $script:wifiPeer = $wifiAddresses[0].IPAddress
     $routerAddresses = Remote 'ip -4 addr show dev apcli0'
     $addressMatch = [regex]::Match($routerAddresses,'inet\s+(192\.168\.31\.\d+)/')

@@ -7,9 +7,8 @@
 
 The cable archive is repacked from the original upload and keeps only the valid entries; the
 individual valid WAV bytes are unchanged, with WAV SHA-256 and ZIP CRC values in
-`../metadata/release_datasets.json`. The new wall archive is unchanged. The remaining recordings,
-including the earlier wall studies and the other campaign batches, are being curated and will be
-uploaded together with their provenance.
+`../metadata/release_datasets.json`. The new wall archive is unchanged. Earlier wall recordings and their derived results remain withdrawn. Rejected or invalid
+recordings and excluded router campaigns are not scheduled for upload.
 
 Run `git lfs pull`, then `python scripts/validate_data.py` from the repository root.
 

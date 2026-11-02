@@ -8,11 +8,11 @@ applicable measurement and supplemental-analysis sources from the major revision
 and the measured summary tables for those batches. The cable archive is repacked to omit the rejected
 source entries while preserving the valid WAV bytes.
 
-Being prepared for upload: the remaining campaign recordings, including the earlier wall studies and
-the later router campaigns; the original-paper plotting and simulated-data figure sources; and the
-full recognition implementation. These will be added in subsequent uploads once their recordings and
-provenance are finalised. The historical 2026-10-22 prototype files in this batch are preflight
-sources and do not carry classification results.
+Excluded from this release and future uploads under the current data policy: earlier wall
+recordings and their derived results, rejected router campaigns after 2026-10-22, invalid or empty
+recordings, and original-paper plotting or simulated-data figure sources. Only the newly supplied
+wall-pair batch is used for the current wall study. The historical 2026-10-22 prototype files are
+preflight sources and do not carry classification results.
 
 Generic historical algorithms in `revision_workspace/` support additional input formats and cohorts,
 and no rejected inputs or derived results are distributed with them. The new cable and wall batches

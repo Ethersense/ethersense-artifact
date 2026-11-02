@@ -39,7 +39,7 @@ def hackrf(t):
 
 def ping(t):
     if not (R / f'{t}.wifi_ping.txt').exists():
-        return None  # round 2 has no ping (ICMP blocked by the HUGO firewall in round 1)
+        return None  # round 2 has no ping (ICMP blocked by the MEASUREMENT_PC firewall in round 1)
     s = (R / f'{t}.wifi_ping.txt').read_text(errors='replace')
     m = re.search(r'min/avg/max = ([\d.]+)/([\d.]+)/([\d.]+)', s); l = re.search(r'(\d+)% packet loss', s)
     return dict(rtt_avg_ms=float(m.group(2)) if m else None, rtt_max_ms=float(m.group(3)) if m else None, loss_pct=int(l.group(1)) if l else None)

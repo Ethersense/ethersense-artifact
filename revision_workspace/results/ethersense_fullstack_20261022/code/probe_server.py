@@ -1,6 +1,6 @@
 """LAN client-service and notification instrumentation; contains no classifier results.
 
-Run on HUGO only after connection/readiness checks. Default binding is loopback.
+Run on MEASUREMENT_PC only after connection/readiness checks. Default binding is loopback.
 The browser is a reference notification client, not the project's native App.
 """
 import argparse

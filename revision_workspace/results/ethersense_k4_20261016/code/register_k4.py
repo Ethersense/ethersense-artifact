@@ -18,7 +18,7 @@ def new_or_identical(path,text):
 
 def main():
     inv=json.loads((ROOT/'data_inventory.json').read_text(encoding='utf-8'))
-    pointer=PROJECT/'07_experiments/data/received_20261016_k4_6855e11ab49c/data_pointer.json'
+    pointer=PROJECT/'07_experiments/data/received_20261016_k4_source_workspace/data_pointer.json'
     data={'workspace':str(WORKSPACE),'source_archive':inv['sources'][0]['archive'],'results':str(ROOT),'data_index':str(ROOT/'data_index.csv'),
           'report':str(ROOT/'EtherSense_K4补充实验分析报告.pdf'),'full_spectra_cache':str(ROOT/'output'),
           'initial_source_records':58,'bands_hz':{'stability':[1577e6,1597e6],'cable':[10e6,30e6]},
@@ -31,7 +31,7 @@ def main():
 import argparse,json,subprocess,sys
 from pathlib import Path
 p=argparse.ArgumentParser();p.add_argument('action',choices=('audit','check-cache','refresh'));a=p.parse_args()
-pointer=Path(__file__).resolve().parent.parent/'data/received_20261016_k4_6855e11ab49c/data_pointer.json'
+pointer=Path(__file__).resolve().parent.parent/'data/received_20261016_k4_source_workspace/data_pointer.json'
 cfg=json.loads(pointer.read_text(encoding='utf-8'));workspace=Path(cfg['workspace']);script=Path(cfg['results'])/'code/update_k4.py'
 if not script.is_file(): raise FileNotFoundError('Original workspace unavailable; no stale-copy fallback')
 subprocess.run([sys.executable,str(script),a.action],cwd=str(workspace),check=True)
@@ -60,7 +60,7 @@ subprocess.run([sys.executable,str(script),a.action],cwd=str(workspace),check=Tr
     manifest=PROJECT/'MANIFEST.md';existing=manifest.read_text(encoding='utf-8');heading='## 2026-10-16 K4补充实验资料'
     if heading not in existing:
         with manifest.open('a',encoding='utf-8') as f:
-            f.write('\n'+heading+'\n\n58个RF64 PCM8新文件已完整校验，完整20MHz分组分析、六主图/两补充图、中英报告与历史隔离更新流程见reports/20261016_K4补充实验结果索引.md；源/结果指针在07_experiments/data/received_20261016_k4_6855e11ab49c/，代码入口run_k4_20261016.py。实际日期和接收设置未核实，不据此关闭K4或宣称十天/长期免重训；未改论文和旧报告。\n')
+            f.write('\n'+heading+'\n\n58个RF64 PCM8新文件已完整校验，完整20MHz分组分析、六主图/两补充图、中英报告与历史隔离更新流程见reports/20261016_K4补充实验结果索引.md；源/结果指针在07_experiments/data/received_20261016_k4_source_workspace/，代码入口run_k4_20261016.py。实际日期和接收设置未核实，不据此关闭K4或宣称十天/长期免重训；未改论文和旧报告。\n')
     print('Registered original-source/result pointers and lightweight runner in shared EtherSense project.')
 
 
