@@ -26,5 +26,9 @@
   {
     "source": "ethersense_stability_20261021/code/report_stability.py",
     "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  },
+  {
+    "source": "revision_workspace/results/*/code/{plot_k4,plot_stability,plot_supplemental,plot_alongline,paperplot}.py",
+    "reason": "Figure-generation utilities for the camera-ready plots; omitted from this release. The released analysis scripts and processed tables cover every measured quantity."
   }
 ]

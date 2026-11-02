@@ -21,7 +21,7 @@ These are the historical source files, kept with their original layout. The earl
 archives and cached spectra are being assembled for upload, and each entry documents its expected
 inputs and host-specific parameters; no generated observations stand in for missing inputs. Heavy
 raw-data transforms run on a suitable compute host, and this batch performed no new capture or
-spectrum recomputation. The original-paper plotting notebooks and the standalone synthetic
-demonstrations are being prepared for upload in the same way. Shared style helpers retain
-measured-data plotting with deterministic point offsets. See
+spectrum recomputation. The figure-generation utilities behind the camera-ready plots are maintained
+separately and are not part of this release; every measured quantity reported here is reproducible
+from the analysis scripts and the processed tables. See
 `../data/metadata/source_provenance.json` for the copied-source hashes and documented edits.

@@ -24,14 +24,6 @@
     "edits": []
   },
   {
-    "path": "revision_workspace/results/ethersense_supplemental/code/plot_supplemental.py",
-    "origin": "6855e11ab49c/results/ethersense_supplemental/code/plot_supplemental.py",
-    "source_sha256": "75a18aedcf42e0b2e6a1c2f52de9dbaea819f99bfee30c484aab1f2146458b12",
-    "published_sha256": "75a18aedcf42e0b2e6a1c2f52de9dbaea819f99bfee30c484aab1f2146458b12",
-    "bytes": 15640,
-    "edits": []
-  },
-  {
     "path": "revision_workspace/results/ethersense_k4_20261016/code/analyze_k4.py",
     "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/analyze_k4.py",
     "source_sha256": "0d538387ed991b830a09bb33694eec411079ab207a6bdfffc9869321637d3239",
@@ -45,25 +37,6 @@
     "source_sha256": "df4a276a73b2a87b437573e2df790a8032ace59a764432ebac769ce3e8cd8034",
     "published_sha256": "df4a276a73b2a87b437573e2df790a8032ace59a764432ebac769ce3e8cd8034",
     "bytes": 15502,
-    "edits": []
-  },
-  {
-    "path": "revision_workspace/results/ethersense_k4_20261016/code/paperplot.py",
-    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/paperplot.py",
-    "source_sha256": "785c8e51f2dfbc2b040408c9d637ab93178c6babd94c6a88b1864ae76aa0af2b",
-    "published_sha256": "af896faa8bf610b3bdf1927324293e3d679bf7893168f0af72e108f206599ae5",
-    "bytes": 24318,
-    "edits": [
-      "Removed standalone demonstration and its generated/example data.",
-      "Replaced cosmetic point jitter with deterministic offsets; measurement values are unchanged."
-    ]
-  },
-  {
-    "path": "revision_workspace/results/ethersense_k4_20261016/code/plot_k4.py",
-    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/plot_k4.py",
-    "source_sha256": "6de59e699e30f18c23ac4e13bf3d7b17a2644594b0dfd35fba9a0cf8cda28627",
-    "published_sha256": "6de59e699e30f18c23ac4e13bf3d7b17a2644594b0dfd35fba9a0cf8cda28627",
-    "bytes": 17760,
     "edits": []
   },
   {
@@ -160,14 +133,6 @@
     "source_sha256": "a7235cbd3f2a4e6ff881ed18a23aad5eb82c17bb388735f99f8a2456bcea3d80",
     "published_sha256": "a7235cbd3f2a4e6ff881ed18a23aad5eb82c17bb388735f99f8a2456bcea3d80",
     "bytes": 3209,
-    "edits": []
-  },
-  {
-    "path": "revision_workspace/results/ethersense_stability_20261021/code/plot_stability.py",
-    "origin": "6855e11ab49c/results/ethersense_stability_20261021/code/plot_stability.py",
-    "source_sha256": "7d1f229fe6352781dc62c486b8be0d19af9aa3c9ae4db35ff08e18801a68e636",
-    "published_sha256": "7d1f229fe6352781dc62c486b8be0d19af9aa3c9ae4db35ff08e18801a68e636",
-    "bytes": 3101,
     "edits": []
   },
   {
@@ -365,16 +330,6 @@
     "published_sha256": "9e5709042b260e20176811e1cc3ba8fa54cb72032e7203addbb2676f5376c7bc",
     "bytes": 1126,
     "edits": []
-  },
-  {
-    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/plot_alongline.py",
-    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/plot_alongline.py",
-    "source_sha256": "d0c19bcf83f39f7c4e4270184e011bc307e9d4fca4f5198044f7a9d57bb9db5b",
-    "published_sha256": "ce3abd23073c2d68465484bab718e2d50fff5be4d7dc97ebbd1899f685e5cf60",
-    "bytes": 2787,
-    "edits": [
-      "Use the bundled local style helper instead of a private skill path."
-    ]
   },
   {
     "path": "revision_workspace/results/ethersense_fullstack_20261022/code/ap_capture_psd.sh",
@@ -585,17 +540,6 @@
     "bytes": 115837424,
     "edits": [
       "Invalid fifth and empty sixth entries omitted from released archive. Valid WAV member bytes preserved; hashes are in release_datasets.json."
-    ]
-  },
-  {
-    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/paperplot.py",
-    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/paperplot.py",
-    "source_sha256": "785c8e51f2dfbc2b040408c9d637ab93178c6babd94c6a88b1864ae76aa0af2b",
-    "published_sha256": "af896faa8bf610b3bdf1927324293e3d679bf7893168f0af72e108f206599ae5",
-    "bytes": 24318,
-    "edits": [
-      "Removed standalone demonstration and its generated/example data.",
-      "Replaced cosmetic point jitter with deterministic offsets; measurement values are unchanged."
     ]
   },
   {

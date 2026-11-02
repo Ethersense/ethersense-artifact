@@ -60,7 +60,7 @@ def main():
     old.update(record_count=len(cached),records=cached,all_crc_validated=all(x['full_zip_crc_validated'] for x in cached),
                max_reference_welch_relative_error=max(x['reference_welch_relative_error'] for x in cached))
     manifest_path.write_text(json.dumps(old,ensure_ascii=False,indent=2),encoding='utf-8')
-    for name in ('analyze_k4.py','summarize_k4.py','plot_k4.py'):
+    for name in ('analyze_k4.py','summarize_k4.py'):
         call(name)
     subprocess.run([sys.executable,str(ROOT/'code/build_deliverables_k4.py'),'--update'],check=True)
     call('verify_k4.py')
