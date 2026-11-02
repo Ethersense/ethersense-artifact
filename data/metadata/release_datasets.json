@@ -180,6 +180,88 @@
           "analysis_included": true
         }
       ]
+    },
+    {
+      "id": "parallel_load_states",
+      "path": "data/raw/parallel_load_states/parallel_load_states.zip",
+      "bytes": 260607409,
+      "sha256": "e0e88c27de0e09e665995da812926db03c94ab64bd0583c9bbd71f95e1c92c4f",
+      "records": [
+        {
+          "dataset": "parallel_load_states",
+          "ordinal": 1,
+          "archive_member": "补充实验数据/并联实验/20-10-22_19600000Hz_电瓶车断开.wav",
+          "bytes": 385351760,
+          "zip_crc32": "d1e41796",
+          "sample_rate_hz": 20000000,
+          "channels": 2,
+          "bits_per_sample": 16,
+          "data_bytes": 385351680,
+          "duration_s": 4.816896,
+          "center_frequency_hz": 19600000,
+          "analysis_included": true,
+          "record_id": "C01",
+          "condition": "电瓶车断开",
+          "review_label": "C01",
+          "wav_sha256": "02a1a7574614ba00b170cf22c73c8d5a0b52ca985f0d98a77add7b8ab168e512"
+        },
+        {
+          "dataset": "parallel_load_states",
+          "ordinal": 2,
+          "archive_member": "补充实验数据/并联实验/20-10-53_19600000Hz_全部连接.wav",
+          "bytes": 363855952,
+          "zip_crc32": "7967f97a",
+          "sample_rate_hz": 20000000,
+          "channels": 2,
+          "bits_per_sample": 16,
+          "data_bytes": 363855872,
+          "duration_s": 4.5481984,
+          "center_frequency_hz": 19600000,
+          "analysis_included": true,
+          "record_id": "C02",
+          "condition": "全部连接",
+          "review_label": "C02",
+          "wav_sha256": "cc4559652bfa5a9d500a12e40ef78e07be0788f25ed587e666b947f1c2a93a3b"
+        },
+        {
+          "dataset": "parallel_load_states",
+          "ordinal": 3,
+          "archive_member": "补充实验数据/并联实验/20-11-09_19600000Hz_电器2断开.wav",
+          "bytes": 346554448,
+          "zip_crc32": "7eca78e4",
+          "sample_rate_hz": 20000000,
+          "channels": 2,
+          "bits_per_sample": 16,
+          "data_bytes": 346554368,
+          "duration_s": 4.3319296,
+          "center_frequency_hz": 19600000,
+          "analysis_included": true,
+          "record_id": "C03",
+          "condition": "电器2断开",
+          "review_label": "C03",
+          "wav_sha256": "4db3185f0dc610c128f936343145b0d1ef61beb56e82f7871fc548e7f56ed814"
+        },
+        {
+          "dataset": "parallel_load_states",
+          "ordinal": 4,
+          "archive_member": "补充实验数据/并联实验/20-11-33_19600000Hz_全部断开.wav",
+          "bytes": 358613072,
+          "zip_crc32": "3ce1847d",
+          "sample_rate_hz": 20000000,
+          "channels": 2,
+          "bits_per_sample": 16,
+          "data_bytes": 358612992,
+          "duration_s": 4.4826624,
+          "center_frequency_hz": 19600000,
+          "analysis_included": true,
+          "record_id": "C04",
+          "condition": "全部断开",
+          "review_label": "C04",
+          "wav_sha256": "3c9931c9f8873e84b18d8288a0493fc3bb94440456fbc09b6f5e6b4a870dbc78"
+        }
+      ],
+      "packaging": "Valid WAV members copied without changing their raw or compressed bytes; full payload CRC and SHA-256 verified."
     }
-  ]
+  ],
+  "release_status": "Data and code are being uploaded progressively."
 }

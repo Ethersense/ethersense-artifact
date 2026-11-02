@@ -35,6 +35,7 @@ git clone https://github.com/Ethersense/ethersense-artifact.git
 cd ethersense-artifact
 git lfs install
 git lfs pull
+python scripts/assemble_data.py
 python scripts/validate_data.py
 python scripts/reproduce_all.py manifest
 ```
@@ -85,3 +86,13 @@ please cite the repository:
 ```
 
 The machine-readable form is [`CITATION.cff`](CITATION.cff).
+
+## Progressive measurement-data uploads
+
+Data and code are being uploaded progressively. The following additional measured cohorts are available as verified data parts. Run `python scripts/assemble_data.py` after obtaining the files.
+
+| Dataset | Valid recordings | Reconstructed archive |
+|---|---:|---|
+| `parallel_load_states` | 4 | `data/raw/parallel_load_states/parallel_load_states.zip` |
+
+The ten original cable-length and new-wall WAVs remain available in the two original LFS archives. Withdrawn or invalid cohorts are excluded. The released measurements do not constitute the complete original recognition dataset.
