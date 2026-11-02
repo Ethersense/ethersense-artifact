@@ -56,3 +56,27 @@ inputs and host-specific parameters.
 The original-paper recognition implementation is being prepared for upload. Directories for the
 remaining experiments stay in place while their recordings are curated; [`RELEASE_SCOPE.md`](RELEASE_SCOPE.md)
 records the current scope of this batch.
+
+## Citation
+
+This artifact is published anonymously. If you use the released recordings or the analysis code,
+please cite the repository:
+
+> Anonymous. *EtherSense Artifact: Released Recordings, Analysis Code and Revision Workspace*.
+> GitHub, 2026. <https://github.com/Ethersense/ethersense-artifact>
+
+```bibtex
+@misc{ethersense_artifact_2026,
+  author       = {Anonymous},
+  title        = {{EtherSense} Artifact: Released Recordings, Analysis Code and Revision Workspace},
+  year         = {2026},
+  month        = nov,
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/Ethersense/ethersense-artifact}},
+  note         = {Anonymous research artifact accompanying the IMWUT submission
+                  ``Lens-Free, Plug-Free, and Retrofit-Free: Repurposing Wi-Fi APs
+                  into Ubiquitous Electrical Sentinels''}
+}
+```
+
+The machine-readable form is [`CITATION.cff`](CITATION.cff).
