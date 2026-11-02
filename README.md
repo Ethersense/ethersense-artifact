@@ -9,7 +9,9 @@ This batch contains the measurement and analysis sources from the major-revision
 **2026-10-22**, together with the **valid cable-length and new wall-pair recordings** confirmed by the
 authors. Only confirmed-valid recordings are packaged: invalid entries were removed from the archives
 before upload. The remaining campaign recordings and the recognition implementation are being
-curated and will follow in subsequent uploads.
+curated and will follow in subsequent uploads. Figure-generation utilities are maintained separately
+and are not part of this release; the released analysis code and processed tables cover every
+measured quantity reported in the paper.
 
 | Path | Included content |
 |---|---|---|
@@ -36,7 +38,7 @@ python scripts/reproduce_all.py manifest
 
 Validation checks archive hashes and the stored ZIP inventory. Manifest inspection additionally
 reads WAV headers. It does not recompute spectra, run recognition or decompress the full payload.
-For the historical numerical and plotting sources, install `requirements.txt` and read
+For the historical numerical sources, install `requirements.txt` and read
 [`revision_workspace/README.md`](revision_workspace/README.md); each entry documents its expected
 inputs and host-specific parameters.
 
