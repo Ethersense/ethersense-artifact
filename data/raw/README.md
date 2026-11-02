@@ -1,17 +1,12 @@
-# Valid released data
+# Released measurement archives
 
-| Archive | Released WAVs | Confirmed labels |
-|---|---:|---|
-| `cord_length_20261101/cable_lengths_1to4m.zip` | 4 | 1, 2, 3, 4 m in timestamp order |
-| `wall_pairs_20261101/2026_11_02.zip` | 6 | Pairs 1/2, 3/4, 5/6; odd no-wall, even wall-present |
+Run `python scripts/assemble_data.py` from the repository root to reconstruct the archives from
+`data/parts/`. Then run `python scripts/validate_data.py` and
+`python scripts/reproduce_all.py manifest`.
 
-The cable archive is repacked from the original upload and keeps only the valid entries; the
-individual valid WAV bytes are unchanged, with WAV SHA-256 and ZIP CRC values in
-`../metadata/release_datasets.json`. The new wall archive is unchanged. Earlier wall recordings and their derived results remain withdrawn. Rejected or invalid
-recordings and excluded router campaigns are not scheduled for upload.
+- `cable_lengths/cable_lengths_1to4m.zip`: four valid recordings in 1/2/3/4 m order.
+- `wall_pairs/wall_pairs.zip`: three no-wall/with-wall pairs; only the new wall batch is included.
 
-Run `git lfs pull`, then `python scripts/validate_data.py` from the repository root.
-
-Both datasets have WAV-header sample rate 20 MS/s, two channels and unsigned 8-bit PCM storage.
-Filename center-frequency labels and the acquisition conditions are documented in the root README
-and in `../metadata/`.
+Review labels map to the preserved original WAV names in `../metadata/recordings.csv`. The
+reconstructed archives match the released SHA-256 hashes. Invalid or withdrawn recordings are
+not included. Earlier wall datasets remain withdrawn and are not scheduled for upload.

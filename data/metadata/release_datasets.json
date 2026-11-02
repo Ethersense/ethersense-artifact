@@ -4,7 +4,7 @@
   "datasets": [
     {
       "id": "cord_length_20261101",
-      "path": "data/raw/cord_length_20261101/cable_lengths_1to4m.zip",
+      "path": "data/raw/cable_lengths/cable_lengths_1to4m.zip",
       "original_name": "电线数据.zip",
       "sha256": "5f00f80088006eed45e886c55c587fb46ea03485e43a94da876f64d3966992a4",
       "bytes": 115837424,
@@ -23,7 +23,8 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 1,
           "analysis_included": true,
-          "wav_sha256": "bba5d3e4c16e6e14d7fbe616a7fd96152c073a755caa01386c01d81b0c24c083"
+          "wav_sha256": "bba5d3e4c16e6e14d7fbe616a7fd96152c073a755caa01386c01d81b0c24c083",
+          "review_label": "cable_1m"
         },
         {
           "dataset": "cord_length_20261101",
@@ -39,7 +40,8 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 2,
           "analysis_included": true,
-          "wav_sha256": "366c771dc26fa5587a97a481b0e1c903f3c56cf8931e9812f335175306f170b8"
+          "wav_sha256": "366c771dc26fa5587a97a481b0e1c903f3c56cf8931e9812f335175306f170b8",
+          "review_label": "cable_2m"
         },
         {
           "dataset": "cord_length_20261101",
@@ -55,7 +57,8 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 3,
           "analysis_included": true,
-          "wav_sha256": "3b5d4e8aaf937a0f3d3078181648bf13615b750932bc3d2cd7356aa9d9d37b88"
+          "wav_sha256": "3b5d4e8aaf937a0f3d3078181648bf13615b750932bc3d2cd7356aa9d9d37b88",
+          "review_label": "cable_3m"
         },
         {
           "dataset": "cord_length_20261101",
@@ -71,14 +74,15 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 4,
           "analysis_included": true,
-          "wav_sha256": "4e9458c25e90c35cbd7872da5a07988a3912b01e7102a161606a644b5b60877f"
+          "wav_sha256": "4e9458c25e90c35cbd7872da5a07988a3912b01e7102a161606a644b5b60877f",
+          "review_label": "cable_4m"
         }
       ],
       "packaging": "Repacked to include only the four author-confirmed valid WAV entries. WAV bytes unchanged."
     },
     {
       "id": "wall_pairs_20261101",
-      "path": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+      "path": "data/raw/wall_pairs/wall_pairs.zip",
       "original_name": "2026_11_02.zip",
       "sha256": "f7ddd584aa0c4120e0d6259157a4ef54e36672ad4ef164b47cb9291fba60813c",
       "bytes": 85034564,
@@ -97,7 +101,8 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 1,
           "wall_present": false,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_01_no_wall"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -113,7 +118,8 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 1,
           "wall_present": true,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_01_with_wall"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -129,7 +135,8 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 2,
           "wall_present": false,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_02_no_wall"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -145,7 +152,8 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 2,
           "wall_present": true,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_02_with_wall"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -161,7 +169,8 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 3,
           "wall_present": false,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_03_no_wall"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -177,7 +186,8 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 3,
           "wall_present": true,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_03_with_wall"
         }
       ]
     }

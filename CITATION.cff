@@ -10,10 +10,8 @@ abstract: >-
   published spectral measurements.
 authors:
   - name: "Anonymous"
-version: "2026.11"
+version: "review-2026-11-02"
 date-released: "2026-11-02"
-repository-code: "https://github.com/Ethersense/ethersense-artifact"
-url: "https://github.com/Ethersense/ethersense-artifact"
 keywords:
   - Wi-Fi sensing
   - electrical load monitoring

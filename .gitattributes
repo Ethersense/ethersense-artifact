@@ -1,3 +1,6 @@
 # Source provenance records exact bytes; do not normalize historical source files.
 * -text
 data/raw/**/*.zip filter=lfs diff=lfs merge=lfs -text
+
+# Anonymous review parts are ordinary Git blobs, without LFS indirection.
+data/parts/** -filter -diff -merge -text

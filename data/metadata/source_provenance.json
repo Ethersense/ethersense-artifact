@@ -3,8 +3,8 @@
     "path": "revision_workspace/results/ethersense_supplemental/code/analyze_supplemental.py",
     "origin": "source_workspace/results/ethersense_supplemental/code/analyze_supplemental.py",
     "source_sha256": "ac2b81dae1a9412c45a043fefd06d120b1fc3b98e6d3b205a51ff05118fd3e03",
-    "published_sha256": "ac2b81dae1a9412c45a043fefd06d120b1fc3b98e6d3b205a51ff05118fd3e03",
-    "bytes": 22653,
+    "published_sha256": "27963eb5c3cf50ef688df9546984852b8a5cdf2c8c745788d2232c54f07b1558",
+    "bytes": 22641,
     "edits": []
   },
   {
@@ -43,8 +43,8 @@
     "path": "revision_workspace/results/ethersense_k4_20261016/code/README.md",
     "origin": "source_workspace/results/ethersense_k4_20261016/code/README.md",
     "source_sha256": "ab6807d79a81c3add0faa1a5475813938824d3e64b5d94d763fe826b96dc7ca8",
-    "published_sha256": "ab6807d79a81c3add0faa1a5475813938824d3e64b5d94d763fe826b96dc7ca8",
-    "bytes": 1585,
+    "published_sha256": "f0593a6c378fafde01f28258396b90a7e9a0ee163e1ba27b54a82698fac9d38c",
+    "bytes": 1451,
     "edits": []
   },
   {
@@ -61,8 +61,8 @@
     "path": "revision_workspace/results/ethersense_k4_20261016/code/remote_k4.py",
     "origin": "source_workspace/results/ethersense_k4_20261016/code/remote_k4.py",
     "source_sha256": "473609c69f8e3aba6e8def6435fc0cfef97f05a79c2d688e6ff4ed4a98f453d5",
-    "published_sha256": "473609c69f8e3aba6e8def6435fc0cfef97f05a79c2d688e6ff4ed4a98f453d5",
-    "bytes": 2221,
+    "published_sha256": "4d802d74c25ab55ca6af5e10399aecc235729f4a0993665e42d2a89b90ab5527",
+    "bytes": 2512,
     "edits": []
   },
   {
@@ -85,8 +85,8 @@
     "path": "revision_workspace/results/ethersense_k4_20261016/code/update_k4.py",
     "origin": "source_workspace/results/ethersense_k4_20261016/code/update_k4.py",
     "source_sha256": "84318e3f7b5c2847365aadfe94318429645cd2da57cc37ffc8e00ed954163ec7",
-    "published_sha256": "84318e3f7b5c2847365aadfe94318429645cd2da57cc37ffc8e00ed954163ec7",
-    "bytes": 3528,
+    "published_sha256": "1a4f40f5c189aa319c2e028331b58e19308cb0fe424c311120ebaf33e690f205",
+    "bytes": 3515,
     "edits": []
   },
   {
@@ -133,8 +133,8 @@
     "path": "revision_workspace/results/ethersense_stability_20261021/code/index_stability.py",
     "origin": "source_workspace/results/ethersense_stability_20261021/code/index_stability.py",
     "source_sha256": "a7235cbd3f2a4e6ff881ed18a23aad5eb82c17bb388735f99f8a2456bcea3d80",
-    "published_sha256": "a7235cbd3f2a4e6ff881ed18a23aad5eb82c17bb388735f99f8a2456bcea3d80",
-    "bytes": 3209,
+    "published_sha256": "b6bf06e358ed9b148d53a981d90cd5f560532506e04c6f3f86d2ed89006f5928",
+    "bytes": 3244,
     "edits": []
   },
   {
@@ -474,12 +474,14 @@
     "edits": []
   },
   {
-    "path": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "path": "data/raw/wall_pairs/wall_pairs.zip",
     "origin": "source_workspace/attachments/2026_11_02.zip",
     "source_sha256": "f7ddd584aa0c4120e0d6259157a4ef54e36672ad4ef164b47cb9291fba60813c",
     "published_sha256": "f7ddd584aa0c4120e0d6259157a4ef54e36672ad4ef164b47cb9291fba60813c",
     "bytes": 85034564,
-    "edits": []
+    "edits": [
+      "Distribute the unchanged archive byte stream as verified data parts for anonymous review."
+    ]
   },
   {
     "path": "data/processed/cord_lengths_20261101/record_metrics.csv",
@@ -548,12 +550,13 @@
     "edits": []
   },
   {
-    "path": "data/raw/cord_length_20261101/cable_lengths_1to4m.zip",
+    "path": "data/raw/cable_lengths/cable_lengths_1to4m.zip",
     "origin": "source_workspace/attachments/电线数据.zip (only four valid entries)",
     "published_sha256": "5f00f80088006eed45e886c55c587fb46ea03485e43a94da876f64d3966992a4",
     "bytes": 115837424,
     "edits": [
-      "Invalid fifth and empty sixth entries omitted from released archive. Valid WAV member bytes preserved; hashes are in release_datasets.json."
+      "Invalid fifth and empty sixth entries omitted from released archive. Valid WAV member bytes preserved; hashes are in release_datasets.json.",
+      "Distribute the unchanged archive byte stream as verified data parts for anonymous review."
     ]
   },
   {

@@ -21,8 +21,6 @@ data/processed/**/*.npz
 !data/raw/README.md
 
 # Explicitly released original archives (stored with Git LFS).
-!data/raw/cord_length_20261101/cable_lengths_1to4m.zip
-!data/raw/wall_pairs_20261101/2026_11_02.zip
 
 # Local execution outputs and private access material.
 *.pem
