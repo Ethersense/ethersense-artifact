@@ -94,6 +94,7 @@ Data and code are being uploaded progressively. The following additional measure
 |---|---:|---|
 | `parallel_load_states` | 4 | `data/raw/parallel_load_states/parallel_load_states.zip` |
 | `along_line_1to10m` | 10 | `data/raw/along_line_1to10m/along_line_1to10m.zip` |
+| `wire_distance_across_line` | 9 | `data/raw/wire_distance_across_line/wire_distance_across_line.zip` |
 
 The ten original cable-length and new-wall WAVs remain available in the two original LFS archives. Withdrawn or invalid cohorts are excluded. The released measurements do not constitute the complete original recognition dataset.
 
