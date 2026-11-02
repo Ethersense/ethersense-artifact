@@ -5,7 +5,7 @@ Repository: https://github.com/Ethersense/ethersense-artifact
 
 ## This release
 
-This is a partial release. It contains applicable measurement and analysis sources from the
+Data and code are being uploaded progressively. This is a partial release. It contains applicable measurement and analysis sources from the
 major-revision campaigns through **2026-10-22**, together with **four valid cable-length recordings
 and six new wall-pair recordings**. Invalid entries were removed before packaging.
 
