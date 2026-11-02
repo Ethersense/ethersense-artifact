@@ -96,6 +96,7 @@ Data and code are being uploaded progressively. The following additional measure
 | `along_line_1to10m` | 10 | `data/raw/along_line_1to10m/along_line_1to10m.zip` |
 | `wire_distance_across_line` | 9 | `data/raw/wire_distance_across_line/wire_distance_across_line.zip` |
 | `daily_stability_12days` | 12 | `data/raw/daily_stability_12days/daily_stability_12days.zip` |
+| `cord_routing_48` | 48 | `data/raw/cord_routing_48/cord_routing_48.zip` |
 
 The ten original cable-length and new-wall WAVs remain available in the two original LFS archives. Withdrawn or invalid cohorts are excluded. The released measurements do not constitute the complete original recognition dataset.
 
