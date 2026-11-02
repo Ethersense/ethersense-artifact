@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "archives": [
+    {
+      "path": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+      "bytes": 389740882,
+      "sha256": "5462b65a91a59c1ae5a97532e93d45961d40c15e6195e0f3287dbc39cca6c22b",
+      "parts": [
+        {
+          "path": "data/parts/wire_distance_across_line/part-001.bin",
+          "bytes": 6291456,
+          "sha256": "f2bba7a1e3bfd92f581947a5c0ce7a68f353f2786630d973f7dccf60b9a3956e"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-002.bin",
+          "bytes": 6291456,
+          "sha256": "9c02706bb4eaa10baef81aee63b23de2d0ad5a397231c1b7cf0ffcef1972de23"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-003.bin",
+          "bytes": 6291456,
+          "sha256": "f459c82773c97595b314ad5c9e2d4e7162a553826ad708165a05d4c8d9446ec5"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-004.bin",
+          "bytes": 6291456,
+          "sha256": "2c2dd2b99a61d245ad4df68a29a2da3c0e44079b9efcce035dd7397ed51d759d"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-005.bin",
+          "bytes": 6291456,
+          "sha256": "77252050f4d8f259758a5fc3055974ed208def4d57b91e5e02e78328e0cd6f64"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-006.bin",
+          "bytes": 6291456,
+          "sha256": "714824524af1a4bb342f4c43dbf5ef27bf976d6b2c53119bd2162820a3b1d09d"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-007.bin",
+          "bytes": 6291456,
+          "sha256": "08ae1a405216b097d3aac69c80bb98d0f3d9f8421afd90aa996b3941066a1101"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-008.bin",
+          "bytes": 6291456,
+          "sha256": "75b22f1e0604f19b000d3906d7253b6a2ccce658bda7fd229719ea26e53094d4"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-009.bin",
+          "bytes": 6291456,
+          "sha256": "ab3c3b07790083495502695262083f95b2738e09adb7285427b4193efb8f86f3"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-010.bin",
+          "bytes": 6291456,
+          "sha256": "9ef8d4f65046908039f569527469ada2dfe665398a32bccb27a35972b76d01c1"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-011.bin",
+          "bytes": 6291456,
+          "sha256": "ea554df7256621adc53765682d5da931b34f259d71ae9e4cc25f63d09517e1d3"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-012.bin",
+          "bytes": 6291456,
+          "sha256": "47e73bae87ea3fd9dcd67d0505a675d7ead7471f4fe1ee9c4cd276d076a8439f"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-013.bin",
+          "bytes": 6291456,
+          "sha256": "910ba78f6be6bc76ab51abdceda041cc43c190e2726ca747fe9da7649f072f5e"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-014.bin",
+          "bytes": 6291456,
+          "sha256": "be14445b4c90ea0049be925a6616adc576cd90735c1b0ee5947764eeabf72432"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-015.bin",
+          "bytes": 6291456,
+          "sha256": "a0746413b21bed8254208af47d47f2cf9b189d4b710f51ac7ba6b5166468f8d5"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-016.bin",
+          "bytes": 6291456,
+          "sha256": "25a716a82403ab2401dd1dc18e477a0f36f96ba27b4427a5d840801845fb8635"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-017.bin",
+          "bytes": 6291456,
+          "sha256": "9f09783c9cc664b8e7b9c3382823674bb4c81bd95a8eb6ba4eeb660c50f03d4a"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-018.bin",
+          "bytes": 6291456,
+          "sha256": "16256b79e6bab4f545a9e044671bc6de86525fdbbfdf3b73265aad1586cbf5a4"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-019.bin",
+          "bytes": 6291456,
+          "sha256": "203b05640b0a121581ef83dd38de33cc8e8a25f59ef5b208ec58c444cca2656a"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-020.bin",
+          "bytes": 6291456,
+          "sha256": "ce1c0560499d2cff65442969bdd9119225e6b9655bca2ac360e0ef4fc798cb1d"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-021.bin",
+          "bytes": 6291456,
+          "sha256": "a81b2ba6767ad1078e491a748db2057544e1ce77275485079e8869cd06149c60"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-022.bin",
+          "bytes": 6291456,
+          "sha256": "15fa9564e789bc72cfb34adab9a64b12d11760cfd1532ee2b856fbc9824433f1"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-023.bin",
+          "bytes": 6291456,
+          "sha256": "ed9e6c79353873c76b1f42d531a5e8026af124126097dec88da3e709d429d2da"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-024.bin",
+          "bytes": 6291456,
+          "sha256": "ad8208a3dd5182e460c6fe528eaa02a2d49546a415c5527a6edb2979e039b1f3"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-025.bin",
+          "bytes": 6291456,
+          "sha256": "e3a19071e7c2883c5efc315db6b7af48ec692f692b0ecfb7d5341c0aa14714a2"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-026.bin",
+          "bytes": 6291456,
+          "sha256": "b51f6b613e683673d390e007eb4e7c8eec916ad2f4489ffd44464b4061993e80"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-027.bin",
+          "bytes": 6291456,
+          "sha256": "ba3f655ba4f90251523dc132d17ba45a440fc7d89f84f2fbab975f9a75752e2c"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-028.bin",
+          "bytes": 6291456,
+          "sha256": "b358f84895452de60359140d58ee5b340ec894d33bfba135bfbbd3c670988859"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-029.bin",
+          "bytes": 6291456,
+          "sha256": "33ecbb316c677d3084c05960855a4f59b4a3614529f1fedf98d5724b98ee7bfe"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-030.bin",
+          "bytes": 6291456,
+          "sha256": "c31e7289d0bc31dea5369f31c40919eab111c364f6a45ac57eabe8d21ec9620b"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-031.bin",
+          "bytes": 6291456,
+          "sha256": "1430172b003e999ed08ae94801879e2ab0287795eb57521605d67549c3acdd84"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-032.bin",
+          "bytes": 6291456,
+          "sha256": "35e5cf3b3bdba85770988244dd65079df80e357147e96eaa6c4a4d08276f144b"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-033.bin",
+          "bytes": 6291456,
+          "sha256": "ae73fc23758675a3addafcddae0e2bf2e684b5d0e2162ec0feda001757b99892"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-034.bin",
+          "bytes": 6291456,
+          "sha256": "5a2e523a39ee222c09e4cf619ac179e0e6243feebf6f44356802951d685bd84f"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-035.bin",
+          "bytes": 6291456,
+          "sha256": "4df6aed259b1486fc694dd8589d51978e248ab4f7affcd207575a9389436b5a2"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-036.bin",
+          "bytes": 6291456,
+          "sha256": "a2c2e8454d636e14381deb984aced414b6b4d667aded91a3f86a7fb9f19eba77"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-037.bin",
+          "bytes": 6291456,
+          "sha256": "5907806203de361fde6cdef96b2d0e17aeca7cdf4e623a89fe86bec60354dff6"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-038.bin",
+          "bytes": 6291456,
+          "sha256": "b73a6a8f017adef3ac76935e295deb188a5fa1a9a6084095de0bbeb7b9dcb9ed"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-039.bin",
+          "bytes": 6291456,
+          "sha256": "f8491fa13d97b35bb6f9f2db155733f75aa0456e174c756976b996dc7e22c6b0"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-040.bin",
+          "bytes": 6291456,
+          "sha256": "f88189b53da684885878dbe4c2744195fc3b3aa7a7c2056f4ce4007e9c586cde"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-041.bin",
+          "bytes": 6291456,
+          "sha256": "8333417543ff230b43b4de3c7c7fa59b2f5e3c743fd21fbfc5442a057618dabd"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-042.bin",
+          "bytes": 6291456,
+          "sha256": "d0a41362fba1ec2edbfbf177fe9b5c1a5227080535889b09e3bdbd969fce2e9b"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-043.bin",
+          "bytes": 6291456,
+          "sha256": "6c18be3e58f82e1336c200bc337df3bf673d99c63efded4b5b0ca93642a8c86c"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-044.bin",
+          "bytes": 6291456,
+          "sha256": "dd1061adb639fc12324aca0bd6971b6193acc9ac420c0a262fa1c13ca6ecb716"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-045.bin",
+          "bytes": 6291456,
+          "sha256": "9242425448646310e90797a55096293da25e9ee0c5a1d3189669771c9a08ea70"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-046.bin",
+          "bytes": 6291456,
+          "sha256": "58b6b06c76b0971f15a01cd89926172644b2c3c6a308d2824949cf75a8483577"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-047.bin",
+          "bytes": 6291456,
+          "sha256": "64eb80360fe2066fa827a01f1859122e09918ec17c802e0f035ec9f1b594affb"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-048.bin",
+          "bytes": 6291456,
+          "sha256": "9605f613ace13bc5cabcf15566301431fa434d917b9cafa8c0c34e7f4d92e0fb"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-049.bin",
+          "bytes": 6291456,
+          "sha256": "24ea8040722b095d0304ed63f3a58f4a5bfcf6ff12ebd489585fde2a25a451a0"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-050.bin",
+          "bytes": 6291456,
+          "sha256": "98e0c36b6b5b91e7fc642938c2951107343a887d776b46eaa6e235f906a55ccd"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-051.bin",
+          "bytes": 6291456,
+          "sha256": "67c07ac61b871114de1ded085c0f62ba2bd83a67637684887e15986ec4f2ecf1"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-052.bin",
+          "bytes": 6291456,
+          "sha256": "e91a9b863aabd5f9712e22278c3994982e99ce37a364176a77315b1057f3614a"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-053.bin",
+          "bytes": 6291456,
+          "sha256": "718c43b526feaed3bac7f16f41d3129125ba25326f2fe6cb05da0b4caa4e1ce8"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-054.bin",
+          "bytes": 6291456,
+          "sha256": "4def7fad794b127ac7c030d457f73b76745ccc15e25d16d317efff09586dc1d8"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-055.bin",
+          "bytes": 6291456,
+          "sha256": "f16de896bd42af4fb541714b63272d653d370434d0a2dea33e3d45eb1c6306cb"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-056.bin",
+          "bytes": 6291456,
+          "sha256": "a647039a64108fe4d8d326540e3304120c03d8494716cbee41afa1db04fe9e09"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-057.bin",
+          "bytes": 6291456,
+          "sha256": "61d88016fb55c68ee777642d801916189c47b831ac7be36ddeb2767f38150543"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-058.bin",
+          "bytes": 6291456,
+          "sha256": "fc590fc1c12115a650df6b0b86dbb1048ea7266f269a5a43143429bd6f84397c"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-059.bin",
+          "bytes": 6291456,
+          "sha256": "53c6750483e49f51ac5068e192822f35bebbaaea812a4381ac2221211ceb3e98"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-060.bin",
+          "bytes": 6291456,
+          "sha256": "e0ff3385dde146b1a315aa2a684a5e7f7099284ed1aaa15eda9cb901ea2824ab"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-061.bin",
+          "bytes": 6291456,
+          "sha256": "468d55dadae53a6ec4cec9d908631217ff9efa6b3c6e5bc493a9175243b83c97"
+        },
+        {
+          "path": "data/parts/wire_distance_across_line/part-062.bin",
+          "bytes": 5962066,
+          "sha256": "e73ce25365542d83d590b3461601cd239bd5e556b072b48c718c1e65e036e0d6"
+        }
+      ]
+    }
+  ]
+}

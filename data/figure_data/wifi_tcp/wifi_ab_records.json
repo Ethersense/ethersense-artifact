@@ -1,0 +1,572 @@
+[
+ {
+  "trial": "r1_idle",
+  "rep": 1,
+  "cond": "idle",
+  "wifi_tcp_tx": {
+   "mbps_rx": 32.573285266564454,
+   "mbps_tx": 32.423765149319685,
+   "retrans": 0,
+   "cpu_host_total": 0.5210880160237604
+  },
+  "wifi_tcp_rx": {
+   "error": "error - unable to receive control message: Connection reset by peer"
+  },
+  "wifi_udp50": {
+   "mbps": 49.99606403778524,
+   "jitter_ms": 3.53781907913509,
+   "lost_pct": 25.945319740500462,
+   "cpu_host_total": 10.482849146243334
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 940.298047499315,
+   "mbps_tx": 941.2931713412986,
+   "retrans": 0,
+   "cpu_host_total": 10.6480089845531
+  },
+  "ping": {
+   "rtt_avg_ms": null,
+   "rtt_max_ms": null,
+   "loss_pct": 100
+  },
+  "router_cpu_busy_pct": 10.711405065333112,
+  "hackrf": null,
+  "link": [
+   "Signal:",
+   "-22",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r1_capture",
+  "rep": 1,
+  "cond": "capture",
+  "wifi_tcp_tx": {
+   "mbps_rx": 39.6394048757498,
+   "mbps_tx": 39.46531130592122,
+   "retrans": 50,
+   "cpu_host_total": 0.9421550395627196
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 22.912749666436415,
+   "mbps_tx": 23.268280170214535,
+   "retrans": null,
+   "cpu_host_total": 2.735051046970631
+  },
+  "wifi_udp50": {
+   "mbps": 49.996074036904055,
+   "jitter_ms": 0.9204828744710184,
+   "lost_pct": 17.956441149212232,
+   "cpu_host_total": 12.217953513523
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 938.8009148592799,
+   "mbps_tx": 938.730059648939,
+   "retrans": 0,
+   "cpu_host_total": 9.953486225856906
+  },
+  "ping": {
+   "rtt_avg_ms": null,
+   "rtt_max_ms": null,
+   "loss_pct": 100
+  },
+  "router_cpu_busy_pct": 19.220600068973447,
+  "hackrf": {
+   "n_reports": 92,
+   "mib_s_median": 40.1,
+   "mib_s_min": 34.1,
+   "problems": []
+  },
+  "link": [
+   "Signal:",
+   "-22",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r2_idle",
+  "rep": 2,
+  "cond": "idle",
+  "wifi_tcp_tx": {
+   "mbps_rx": 37.4627714268673,
+   "mbps_tx": 38.076588729249096,
+   "retrans": 47,
+   "cpu_host_total": 0.5041698249377448
+  },
+  "wifi_tcp_rx": {
+   "error": "error - unable to receive control message: Connection reset by peer"
+  },
+  "wifi_udp50": {
+   "mbps": 49.9961090338514,
+   "jitter_ms": 1.24039456708132,
+   "lost_pct": 25.180722891566266,
+   "cpu_host_total": 10.525869813573124
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 937.8039634270755,
+   "mbps_tx": 939.691554177709,
+   "retrans": 0,
+   "cpu_host_total": 10.209169065896004
+  },
+  "ping": {
+   "rtt_avg_ms": null,
+   "rtt_max_ms": null,
+   "loss_pct": 100
+  },
+  "router_cpu_busy_pct": 10.479501900218324,
+  "hackrf": null,
+  "link": [
+   "Signal:",
+   "-23",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r2_capture",
+  "rep": 2,
+  "cond": "capture",
+  "wifi_tcp_tx": {
+   "mbps_rx": 37.60181362970381,
+   "mbps_tx": 37.4864945351142,
+   "retrans": 11,
+   "cpu_host_total": 0.733900808672767
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 25.480604199107,
+   "mbps_tx": 25.466566686794298,
+   "retrans": null,
+   "cpu_host_total": 3.421117049228875
+  },
+  "wifi_udp50": {
+   "error": "error - unable to receive control message: Connection reset by peer"
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 940.5547359106521,
+   "mbps_tx": 940.1846890099523,
+   "retrans": 0,
+   "cpu_host_total": 8.33168663644376
+  },
+  "ping": {
+   "rtt_avg_ms": null,
+   "rtt_max_ms": null,
+   "loss_pct": 100
+  },
+  "router_cpu_busy_pct": 20.50622898951948,
+  "hackrf": {
+   "n_reports": 79,
+   "mib_s_median": 40.1,
+   "mib_s_min": 39.8,
+   "problems": []
+  },
+  "link": [
+   "Signal:",
+   "-23",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r3_idle",
+  "rep": 3,
+  "cond": "idle",
+  "wifi_tcp_tx": {
+   "mbps_rx": 26.969793335096877,
+   "mbps_tx": 27.26310212599233,
+   "retrans": 0,
+   "cpu_host_total": 0.470139208944371
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 22.666880666944866,
+   "mbps_tx": 22.92582603470174,
+   "retrans": null,
+   "cpu_host_total": 3.2733747440932515
+  },
+  "wifi_udp50": {
+   "mbps": 49.9961090338514,
+   "jitter_ms": 0.2605864645126299,
+   "lost_pct": 14.478683966635774,
+   "cpu_host_total": 10.485362375468819
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 940.8670242784013,
+   "mbps_tx": 940.7890668023744,
+   "retrans": 0,
+   "cpu_host_total": 10.645109009861162
+  },
+  "ping": {
+   "rtt_avg_ms": null,
+   "rtt_max_ms": null,
+   "loss_pct": 100
+  },
+  "router_cpu_busy_pct": 9.716011382774836,
+  "hackrf": null,
+  "link": [
+   "Signal:",
+   "-26",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r3_capture",
+  "rep": 3,
+  "cond": "capture",
+  "wifi_tcp_tx": {
+   "mbps_rx": 42.45251819912257,
+   "mbps_tx": 42.205249418136596,
+   "retrans": 13,
+   "cpu_host_total": 0.547111962715669
+  },
+  "wifi_tcp_rx": {
+   "error": "error - unable to receive control message: Connection reset by peer"
+  },
+  "wifi_udp50": {
+   "mbps": 49.99599404406552,
+   "jitter_ms": 0.4612846012896218,
+   "lost_pct": 10.89666357738647,
+   "cpu_host_total": 12.033541783067585
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 933.0307442334364,
+   "mbps_tx": 934.1313118070666,
+   "retrans": 0,
+   "cpu_host_total": 9.96593889026039
+  },
+  "ping": {
+   "rtt_avg_ms": null,
+   "rtt_max_ms": null,
+   "loss_pct": 100
+  },
+  "router_cpu_busy_pct": 20.647575658965177,
+  "hackrf": {
+   "n_reports": 66,
+   "mib_s_median": 40.1,
+   "mib_s_min": 39.5,
+   "problems": []
+  },
+  "link": [
+   "Signal:",
+   "-25",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r4_idle",
+  "rep": 4,
+  "cond": "idle",
+  "wifi_tcp_tx": {
+   "mbps_rx": 32.97059367283057,
+   "mbps_tx": 33.293157913368276,
+   "retrans": 1,
+   "cpu_host_total": 0.47131104931143664
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 22.19395551095986,
+   "mbps_tx": 22.187401092182345,
+   "retrans": null,
+   "cpu_host_total": 2.8125709541719757
+  },
+  "wifi_udp50": {
+   "mbps": 49.99612403255813,
+   "jitter_ms": 0.22440677786880406,
+   "lost_pct": 38.0722891566265,
+   "cpu_host_total": 10.056851504204952
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 941.1015332833207,
+   "mbps_tx": 941.866225383975,
+   "retrans": 0,
+   "cpu_host_total": 11.018335200762063
+  },
+  "ping": null,
+  "router_cpu_busy_pct": 12.894178808400024,
+  "hackrf": null,
+  "link": [
+   "Signal:",
+   "-42",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r4_capture",
+  "rep": 4,
+  "cond": "capture",
+  "wifi_tcp_tx": {
+   "mbps_rx": 33.82697589264535,
+   "mbps_tx": 34.27390145529283,
+   "retrans": 14,
+   "cpu_host_total": 0.669114616005831
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 29.074198390809116,
+   "mbps_tx": 29.17158023090556,
+   "retrans": null,
+   "cpu_host_total": 3.171702774416749
+  },
+  "wifi_udp50": {
+   "mbps": 49.99596904635597,
+   "jitter_ms": 0.4106010395103626,
+   "lost_pct": 20.92215013901761,
+   "cpu_host_total": 12.222372016597658
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 939.9263874327311,
+   "mbps_tx": 940.0863169149593,
+   "retrans": 0,
+   "cpu_host_total": 9.07447181694535
+  },
+  "ping": null,
+  "router_cpu_busy_pct": 22.206733114936917,
+  "hackrf": {
+   "n_reports": 75,
+   "mib_s_median": 40.1,
+   "mib_s_min": 39.8,
+   "problems": []
+  },
+  "link": [
+   "Signal:",
+   "-30",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r5_idle",
+  "rep": 5,
+  "cond": "idle",
+  "wifi_tcp_tx": {
+   "mbps_rx": 28.507901028259685,
+   "mbps_tx": 28.21011054525649,
+   "retrans": 86,
+   "cpu_host_total": 0.334469179067405
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 22.98262203696653,
+   "mbps_tx": 22.812975029888687,
+   "retrans": null,
+   "cpu_host_total": 2.895238192085
+  },
+  "wifi_udp50": {
+   "mbps": 49.9961140334193,
+   "jitter_ms": 0.26929384460349115,
+   "lost_pct": 40.38924930491196,
+   "cpu_host_total": 10.431509547132269
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 940.650256291848,
+   "mbps_tx": 941.1776105905385,
+   "retrans": 0,
+   "cpu_host_total": 9.801102968829884
+  },
+  "ping": null,
+  "router_cpu_busy_pct": 11.020550330895162,
+  "hackrf": null,
+  "link": [
+   "Signal:",
+   "-42",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r5_capture",
+  "rep": 5,
+  "cond": "capture",
+  "wifi_tcp_tx": {
+   "mbps_rx": 41.799519934037015,
+   "mbps_tx": 41.47110615200892,
+   "retrans": 2,
+   "cpu_host_total": 0.637963655871301
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 26.222499805621066,
+   "mbps_tx": 26.438174277670814,
+   "retrans": null,
+   "cpu_host_total": 2.717922070281005
+  },
+  "wifi_udp50": {
+   "mbps": 49.99611903298822,
+   "jitter_ms": 0.2348751260776813,
+   "lost_pct": 26.749304911955516,
+   "cpu_host_total": 12.314499688839314
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 938.3754421856327,
+   "mbps_tx": 939.868840261129,
+   "retrans": 0,
+   "cpu_host_total": 9.41140006716641
+  },
+  "ping": null,
+  "router_cpu_busy_pct": 23.761092150170647,
+  "hackrf": {
+   "n_reports": 75,
+   "mib_s_median": 40.1,
+   "mib_s_min": 39.8,
+   "problems": []
+  },
+  "link": [
+   "Signal:",
+   "-41",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r6_idle",
+  "rep": 6,
+  "cond": "idle",
+  "wifi_tcp_tx": {
+   "mbps_rx": 27.595505294785752,
+   "mbps_tx": 27.909067758876766,
+   "retrans": 0,
+   "cpu_host_total": 0.5147262000863786
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 24.853363050828623,
+   "mbps_tx": 25.36373111497942,
+   "retrans": null,
+   "cpu_host_total": 3.1140097964209756
+  },
+  "wifi_udp50": {
+   "mbps": 40.09765913083374,
+   "jitter_ms": 0.0773916300445986,
+   "lost_pct": 24.454716163512927,
+   "cpu_host_total": 8.106272132442665
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 940.3036605394036,
+   "mbps_tx": 940.2620541626817,
+   "retrans": 0,
+   "cpu_host_total": 10.264599659173065
+  },
+  "ping": null,
+  "router_cpu_busy_pct": 15.937349728652883,
+  "hackrf": null,
+  "link": [
+   "Signal:",
+   "-43",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ },
+ {
+  "trial": "r6_capture",
+  "rep": 6,
+  "cond": "capture",
+  "wifi_tcp_tx": {
+   "mbps_rx": 40.4822099414267,
+   "mbps_tx": 40.21672988079856,
+   "retrans": 0,
+   "cpu_host_total": 0.9584510598974973
+  },
+  "wifi_tcp_rx": {
+   "mbps_rx": 28.10951171210838,
+   "mbps_tx": 28.36780562024056,
+   "retrans": null,
+   "cpu_host_total": 2.733365792572761
+  },
+  "wifi_udp50": {
+   "mbps": 49.996074036904055,
+   "jitter_ms": 0.5273510300603258,
+   "lost_pct": 18.76737720111214,
+   "cpu_host_total": 12.226954019004435
+  },
+  "wired_tcp_tx": {
+   "mbps_rx": 940.388308551963,
+   "mbps_tx": 940.6317562118204,
+   "retrans": 0,
+   "cpu_host_total": 8.84005281353448
+  },
+  "ping": null,
+  "router_cpu_busy_pct": 22.809781491883008,
+  "hackrf": {
+   "n_reports": 76,
+   "mib_s_median": 40.1,
+   "mib_s_min": 39.8,
+   "problems": []
+  },
+  "link": [
+   "Signal:",
+   "-41",
+   "dBm",
+   "Noise:",
+   "-256",
+   "dBm",
+   "Bit",
+   "Rate:",
+   "286.0",
+   "MBit/s"
+  ]
+ }
+]

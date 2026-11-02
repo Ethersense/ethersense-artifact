@@ -29,3 +29,8 @@ id_ed25519*
 id_rsa*
 .ssh/
 revision_workspace/attachments/
+
+# Reconstructed auxiliary archives are generated from tracked small parts.
+data/auxiliary/*.zip
+data/auxiliary/**/*.zip
+*.assembling

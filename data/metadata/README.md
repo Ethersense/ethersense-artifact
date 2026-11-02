@@ -1,14 +1,11 @@
-# Release metadata
+# Released recording metadata
 
-`release_datasets.json` and `recordings.csv` list the ten valid released WAVs, including archive
-SHA-256, ZIP entry CRC and size, WAV header facts and author-confirmed labels. The four cable WAVs
-also carry per-WAV SHA-256 from the streaming subset copy.
+`release_datasets.json` lists 95 valid WAV recordings and archive/member integrity checks;
+`recordings.csv` provides a flat condition-label mapping. `auxiliary_captures.json` lists sixteen
+signed-IQ captures without WAV headers. Per-cohort part indexes are in `parts/`; the earlier two
+archive streams also use `review_parts.json`. These indexes permit reconstruction without LFS.
 
-Invalid entries are omitted from the release archives by design, so no invalid-data cohort is
-published. `source_provenance.json` records original-source and released-file hashes together with
-the documented edits, and `code_exclusions.json` lists the host wrappers omitted from the source
-export.
-
-Metadata for the remaining recordings is being compiled and will be added here as those batches are
-uploaded. The archive validator reads hashes and directory metadata; it does not recompute
-full-payload CRCs.
+`figure_data_map.csv` maps the added measurement figures to actual released cohorts. The 59-unit
+conductor-length CSV is transcribed from the latest manuscript table, retaining NR and N/A entries.
+Source provenance describes the recorded-data code export and documented edits. Withdrawn or
+invalid recordings are not packaged.

@@ -1,0 +1,10 @@
+figure,caption_topic,raw_datasets,record_selection,figure_data_directory,scope_note
+15,Mains-related envelope structure,cord_routing_48,W_s000_r1; W_s080_r1; W_c080_r1,propagation,Lower heater panels are released. Upper background/0m panels use the withdrawn old wall session and are excluded.
+16,Parallel-load modulation maps,parallel_load_states,C01-C04,propagation,Four connection states; DC excluded from subband counts.
+17,Reference lines along the supply line,along_line_1to10m; wire_distance_across_line,B01-B10; preceding base A09,along_line,"Ten receiver positions, 1-10 m; distinct from power-cord length."
+18,Paired wall measurements at 5 m,wall_pairs_20261101,Three new no-wall/with-wall pairs,wall_pairs,Only the newly supplied wall cohort is released.
+19,Twelve-day recorded-comb repeatability,daily_stability_12days,1-12 October; 12 recordings,daily_stability,Ten central candidates and six fixed-grid references are distinguished in the paper.
+20,Cord-layout observations,cord_routing_48,12 layouts x 4 technical repetitions,cord_routing,Position labels describe routing geometry; not the 1-4 m length study.
+21,Wi-Fi TCP send throughput,wifi_tcp_coexistence,Initial completed pairs and final three protected pairs,wifi_tcp,Successful throughput records only; aborted protection attempts excluded.
+S1,Direct 1-4 m cord-length comparison,cord_length_20261101,Four valid 1/2/3/4 m recordings,cable_lengths,Invalid fifth and empty sixth source files are absent.
+13,Hazard-state fingerprints,unlocated,State-labelled raw recordings not located,,No substitute recordings are assigned to these panels.

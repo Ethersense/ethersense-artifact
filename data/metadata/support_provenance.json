@@ -1,0 +1,242 @@
+[
+  {
+    "path": "data/figure_data/propagation/modulation_records.csv",
+    "source_sha256": "6ad03cc9fe711af93a5ee8add27a7b139df403735d43953967b210ed821d909a",
+    "published_sha256": "f1de7d2ef376841f2d832b1b6c41f1734860dc847c2ea11ba40fd55c03bf6130"
+  },
+  {
+    "path": "data/figure_data/propagation/psd_structure.csv",
+    "source_sha256": "fb6f1ad8a771196b9998cf97365712288f20906e6abb477ba534cbd8a76c11ea",
+    "published_sha256": "22f501eec3670696cc08950d0f5684067c1746898e6ad2283c39d3fec7248fe4"
+  },
+  {
+    "path": "data/figure_data/propagation/K_W_s000_r1_deep.npz",
+    "source_sha256": "247bb161dec2333e3891a36d13fda6fb4a9df7f1b90538bdab54603c24283ed2",
+    "published_sha256": "247bb161dec2333e3891a36d13fda6fb4a9df7f1b90538bdab54603c24283ed2"
+  },
+  {
+    "path": "data/figure_data/propagation/K_W_s000_r1_deep.json",
+    "source_sha256": "847940c12be4861c8a5be4015949a65ee387b2a9fa868cbac8d4f6e2b7eceea8",
+    "published_sha256": "847940c12be4861c8a5be4015949a65ee387b2a9fa868cbac8d4f6e2b7eceea8"
+  },
+  {
+    "path": "data/figure_data/propagation/K_W_s080_r1_deep.npz",
+    "source_sha256": "fea8740e690413f8acdbc01a5a4b29c0cec6353eb27eb02d0791289af60f71c3",
+    "published_sha256": "fea8740e690413f8acdbc01a5a4b29c0cec6353eb27eb02d0791289af60f71c3"
+  },
+  {
+    "path": "data/figure_data/propagation/K_W_s080_r1_deep.json",
+    "source_sha256": "294552b6fada1af144ac8fec9122c02f0294425c92a9acb6fae3be68c76bab97",
+    "published_sha256": "294552b6fada1af144ac8fec9122c02f0294425c92a9acb6fae3be68c76bab97"
+  },
+  {
+    "path": "data/figure_data/propagation/K_W_c080_r1_deep.npz",
+    "source_sha256": "a51cbe382c456ea00cb376a2676e0e233b2d998fe43aa261f15b132c8d2f872e",
+    "published_sha256": "a51cbe382c456ea00cb376a2676e0e233b2d998fe43aa261f15b132c8d2f872e"
+  },
+  {
+    "path": "data/figure_data/propagation/K_W_c080_r1_deep.json",
+    "source_sha256": "fe069a3ccf2bebd03a5c54516ceeccbaeedfaebb08ffd1e53f5d1fc86cdd41fa",
+    "published_sha256": "fe069a3ccf2bebd03a5c54516ceeccbaeedfaebb08ffd1e53f5d1fc86cdd41fa"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C01_deep.npz",
+    "source_sha256": "eafaeaf329c8c1c993b83fa801be670e8d8edc6536e6d26bdd1af410c4cf62e0",
+    "published_sha256": "eafaeaf329c8c1c993b83fa801be670e8d8edc6536e6d26bdd1af410c4cf62e0"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C01_deep.json",
+    "source_sha256": "9c263d74ea99db92dd85d8518e2c9b13d414e7af097b17b7b40bf56c6c172725",
+    "published_sha256": "9c263d74ea99db92dd85d8518e2c9b13d414e7af097b17b7b40bf56c6c172725"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C02_deep.npz",
+    "source_sha256": "e808c46862cbb33162525480e09f9b01ec0fb9fda05aed0646195ec83b340d6f",
+    "published_sha256": "e808c46862cbb33162525480e09f9b01ec0fb9fda05aed0646195ec83b340d6f"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C02_deep.json",
+    "source_sha256": "3efd3ad208d4a49016e48e60392d27b9f4b859c65ea11f0291996360df03bfbc",
+    "published_sha256": "3efd3ad208d4a49016e48e60392d27b9f4b859c65ea11f0291996360df03bfbc"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C03_deep.npz",
+    "source_sha256": "00af69186d6eb86395269a0714cbb1eea2e5d1332a0b97d06b0a6c7b7c855d66",
+    "published_sha256": "00af69186d6eb86395269a0714cbb1eea2e5d1332a0b97d06b0a6c7b7c855d66"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C03_deep.json",
+    "source_sha256": "97d86769290f0a05346d977f354820d187bbe0a2d3802b89ced870e83ab288e8",
+    "published_sha256": "97d86769290f0a05346d977f354820d187bbe0a2d3802b89ced870e83ab288e8"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C04_deep.npz",
+    "source_sha256": "d88257b1785e7d3e62729afe0a8e90188dd3b9eb6749b73955e31e94b6c92bd7",
+    "published_sha256": "d88257b1785e7d3e62729afe0a8e90188dd3b9eb6749b73955e31e94b6c92bd7"
+  },
+  {
+    "path": "data/figure_data/propagation/S_C04_deep.json",
+    "source_sha256": "7107aad91c3f94e6c5fe8f330bab0d321684b3b10392283072c9efa954e90b4b",
+    "published_sha256": "7107aad91c3f94e6c5fe8f330bab0d321684b3b10392283072c9efa954e90b4b"
+  },
+  {
+    "path": "data/figure_data/cord_routing/cable_condition_statistics.csv",
+    "source_sha256": "1123f6cf1230c916d7baf1b0fe960e25aa5cad4cb924712a827bb627ceca0694",
+    "published_sha256": "fdc4f5021039676208c442d7c3971cdb0810cd29b96b463227aa6a2687433bbf"
+  },
+  {
+    "path": "data/figure_data/cord_routing/cable_factorial_contrasts.csv",
+    "source_sha256": "eecc7d342bd4668ab0d7ca631bcf1ce5ed24e35154be02c128db9b8151986196",
+    "published_sha256": "294110379031687ccd07a794143913203f90783c9f6af649945e097e772470e7"
+  },
+  {
+    "path": "data/figure_data/cord_routing/cable_condition_pair_correlations.csv",
+    "source_sha256": "b84516d0afffb7c1a935bf7265cab6c8e7f49b2612f239f62c41ac3cdf9722a8",
+    "published_sha256": "fffe73fa1dc37d53bc31bee502fb58a1510c2dc85405e90dd18e206de3567203"
+  },
+  {
+    "path": "data/figure_data/cord_routing/record_metrics.csv",
+    "source_sha256": "ba665ef5efed99b573c4d23f5d960fde41f1aba71c216864f2a14ea9846a3c00",
+    "published_sha256": "8592e27eddd26767e027c2165176ec1732d58fbdbdb53a54a8f938c1dd31f72b"
+  },
+  {
+    "path": "data/figure_data/daily_stability/daily_metrics.csv",
+    "source_sha256": "4e9e164b153c187b26feeedad75da89287bcbd493d9a0b47b0649af8aafbcb34",
+    "published_sha256": "236034d45fc3d69c6fd83746a91b67f38ae227f1377fac06f42ef03dd8d1f6a8"
+  },
+  {
+    "path": "data/figure_data/daily_stability/fixed_day1_peaks.csv",
+    "source_sha256": "c1aa1a96c2e87fbe43323d330513d5c9ce23f2802bcaabec35db79d4f15a793e",
+    "published_sha256": "c89e01fd3f38a8506ba02e891f8a3b24886f38ef61c269fd0b79c4c320f887a5"
+  },
+  {
+    "path": "data/figure_data/along_line/all_positions_threshold_sensitivity.csv",
+    "source_sha256": "32d71d54c43e3862124017144d8b01b1d7d86c79af3b5bb6d6eee7958db2cc39",
+    "published_sha256": "1a9f6931b16312047d98c2acb49ae43df4898bcc6ceaa145de41ab776a89356a"
+  },
+  {
+    "path": "data/figure_data/along_line/feature_summary.csv",
+    "source_sha256": "400f226ea1a52d3aa38ebc5fa53af7fcbd45618a4f14b55edd20cfa8ad06cf5a",
+    "published_sha256": "70dc799d1a3f697bbd2f4b2446adbd409e6d50940d13f3d0b1868c9ae417e807"
+  },
+  {
+    "path": "data/figure_data/along_line/figure_source.json",
+    "source_sha256": "ab7a8ec0117cb1880324ef13eeaf62edb09d2bec21931aeaa148253a97105057",
+    "published_sha256": "ab7a8ec0117cb1880324ef13eeaf62edb09d2bec21931aeaa148253a97105057"
+  },
+  {
+    "path": "data/figure_data/along_line/fixed_feature_tracking.csv",
+    "source_sha256": "6f13b39266e2e9479f41f80df7442df00eb8125acdd8851ee52df3c7b6722d2d",
+    "published_sha256": "4915004f12c8eff35ab361f18873f44e401f62fc61a5d56ed61076425d476047"
+  },
+  {
+    "path": "data/figure_data/along_line/measured_positions.csv",
+    "source_sha256": "58b9b646b86e27376304f39888bf4a85b9ff544c903ba26f99909aeb809f5f5f",
+    "published_sha256": "5023e41bf0db2d0a7563a260b33d691e4309be3ede66154481b7a203f34de894"
+  },
+  {
+    "path": "data/figure_data/along_line/summary.json",
+    "source_sha256": "3056884144500394ef6166012070a72e512365ee6f6d0d82a948051ef5d617bb",
+    "published_sha256": "3056884144500394ef6166012070a72e512365ee6f6d0d82a948051ef5d617bb"
+  },
+  {
+    "path": "data/figure_data/wifi_tcp/wifi_ab_records.json",
+    "source_sha256": "7cc6922fb2e55d2e10ceda72f608486eec68328dd4c757c071b8dc06190fe696",
+    "published_sha256": "7cc6922fb2e55d2e10ceda72f608486eec68328dd4c757c071b8dc06190fe696"
+  },
+  {
+    "path": "data/figure_data/wifi_tcp/wifi_ab_summary.json",
+    "source_sha256": "54eec69655e7972ba6b3d18cf50900885e48b447d4f0febff19fdd183647bf60",
+    "published_sha256": "54eec69655e7972ba6b3d18cf50900885e48b447d4f0febff19fdd183647bf60"
+  },
+  {
+    "path": "data/figure_data/wifi_tcp/protected_final_summary.json",
+    "source_sha256": "1ed7606dda5d0e8d9dcde3b2b6f5162e82d2c09a064622412a9538bf6d42cf77",
+    "published_sha256": "1ed7606dda5d0e8d9dcde3b2b6f5162e82d2c09a064622412a9538bf6d42cf77"
+  },
+  {
+    "path": "data/figure_data/cable_lengths/comparison.json",
+    "source_sha256": "b81f155a2d63b5181d83a45769ac0572ae557a4c7a3b2c776246206b9b4c19ff",
+    "published_sha256": "b81f155a2d63b5181d83a45769ac0572ae557a4c7a3b2c776246206b9b4c19ff"
+  },
+  {
+    "path": "data/figure_data/cable_lengths/peak_tracking.csv",
+    "source_sha256": "21320b4e3a1bbdf040958df020eae14f9044cd22da4d7ce9ef946911a0b75046",
+    "published_sha256": "543a9bb11bb21597c227de01c5f661ac1a81403697865966bd72aafd3ed02b5f"
+  },
+  {
+    "path": "data/figure_data/cable_lengths/record_metrics.csv",
+    "source_sha256": "23db579a141e535c9cdaec851901de08a569317cdc9eafcdba64c3c6f090108d",
+    "published_sha256": "8fb54a81a46b9e4a476d9e1c69ed3bfa50a159c49dcbeb2a653e9faaa70450ed"
+  },
+  {
+    "path": "analysis/cable_lengths/analyze.py",
+    "source_sha256": "f21ac2394054ea40e62ac15f0b57ca9b31110366f4f6ece0bb6f3cba8925b66d",
+    "published_sha256": "e9979e7b85257e9cf34ed1036ed41fc279022f38907d4f0fbdbc71886a956ad8"
+  },
+  {
+    "path": "analysis/cable_lengths/compare.py",
+    "source_sha256": "2a7b782d195f9b7ba85bf29694bdeb07611979f4ce08e5b9257c1aa5bcac9e55",
+    "published_sha256": "2a7b782d195f9b7ba85bf29694bdeb07611979f4ce08e5b9257c1aa5bcac9e55"
+  },
+  {
+    "path": "data/figure_data/wall_pairs/feature_summary.json",
+    "source_sha256": "b118621091d14a8b2a34977e08c5b1429e136315508eb3d3330445d8bd56f4a1",
+    "published_sha256": "b118621091d14a8b2a34977e08c5b1429e136315508eb3d3330445d8bd56f4a1"
+  },
+  {
+    "path": "data/figure_data/wall_pairs/record_metrics.csv",
+    "source_sha256": "8126a78eb63a70119947e6166192709d0d4d804aacb85e45f85edf6532a048d9",
+    "published_sha256": "daa72913cdc9a020055af7488bacc60913646669bdd1aa27514cf3cd8510da5a"
+  },
+  {
+    "path": "data/figure_data/wall_pairs/reference_peak_tracking.csv",
+    "source_sha256": "07fcb190516b52d103533e266309feee8e744ef3f28ff7fe41ce287063bd8045",
+    "published_sha256": "1cc375c1d8e519b3f9d48a74072739a85381b59e4a0ce6fe2ee597e3c54733bc"
+  },
+  {
+    "path": "data/figure_data/wall_pairs/summary.json",
+    "source_sha256": "561cab656d7b923f0f4c7fd0d8252ccebb47433b4e3b087b9834b354ca7e2a61",
+    "published_sha256": "561cab656d7b923f0f4c7fd0d8252ccebb47433b4e3b087b9834b354ca7e2a61"
+  },
+  {
+    "path": "data/figure_data/wall_pairs/time_blocks.csv",
+    "source_sha256": "96a3a5dc87a5f5b0eccb2d6823010ffd128f746b7fc4dc353c9e033c96bdccbb",
+    "published_sha256": "218d99112eb466c4d941ddc33fa8f0f99260140f7f96567355b2ac927e3fe01e"
+  },
+  {
+    "path": "analysis/wall_pairs/analyze.py",
+    "source_sha256": "e219671bf248d99bf7591573f3b1a509daa73366744c5cf46bc56bdae196dd7a",
+    "published_sha256": "15df1988dc80278842b0585ab07ef7ebb7c18cd3215af235715192b0bcf04333"
+  },
+  {
+    "path": "analysis/wall_pairs/postprocess.py",
+    "source_sha256": "91aeee355ef0aaee68ceafdf1d14248dbf91dd59117832b02095ea45823f4095",
+    "published_sha256": "7aa7f5536ae92858ae6d60555f9d792fc6501374de69b9d91035bae88cc9b8dd"
+  },
+  {
+    "path": "analysis/propagation/deep_features.py",
+    "source_sha256": "6e058fefff4893e2b6c66e631cf0b45a9de6bc890ede1916a5f59c6d7c02736b",
+    "published_sha256": "6e058fefff4893e2b6c66e631cf0b45a9de6bc890ede1916a5f59c6d7c02736b"
+  },
+  {
+    "path": "analysis/propagation/psd_structure.py",
+    "source_sha256": "46e505b31f6f0092dbacb118e7537b336b5c1adf10aa1f28c44f7a9718b9afc1",
+    "published_sha256": "46e505b31f6f0092dbacb118e7537b336b5c1adf10aa1f28c44f7a9718b9afc1"
+  },
+  {
+    "path": "docs/assets/figure7_architecture.pdf",
+    "source_sha256": "5d3a0d14f2578e201ace127fe43a2143e883953a6aac91573688a56d2e190f2b",
+    "published_sha256": "5d3a0d14f2578e201ace127fe43a2143e883953a6aac91573688a56d2e190f2b"
+  },
+  {
+    "path": "docs/assets/figure8_hardware_photo.pdf",
+    "source_sha256": "926e38b7a64640f8702bd6e2bbc1e5d8ac06c178026d02acf5ee97bd8826d753",
+    "published_sha256": "926e38b7a64640f8702bd6e2bbc1e5d8ac06c178026d02acf5ee97bd8826d753"
+  },
+  {
+    "path": "data/metadata/unit_conductor_lengths.csv",
+    "source_sha256": "7bc6e7c84d974e2a426fe713dacbb5fd2dc9e28df7eb34aa9f6c13a3dc4d2604",
+    "published_sha256": "89f9b2a98fe81412d873b33e1fc4b19861b432e3f74d574a277c664d508dd5a8"
+  }
+]

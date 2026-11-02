@@ -60,6 +60,22 @@ def validate(root=ROOT):
             continue
         row.update(ok=True, sha256=dataset['sha256'], bytes=dataset['bytes'],
                    wav_entries=len(entries), analysis_included=sum(r['analysis_included'] for r in dataset['records']))
+    auxiliary = root / 'data/metadata/auxiliary_captures.json'
+    if auxiliary.is_file():
+        for dataset in json.loads(auxiliary.read_text(encoding='utf-8'))['datasets']:
+            path = root / dataset['path']
+            row = {'id': dataset['id'], 'path': dataset['path'], 'ok': False, 'storage': 'signed int8 IQ'}
+            datasets.append(row)
+            if not path.is_file() or path.stat().st_size != dataset['bytes'] or digest(path) != dataset['sha256']:
+                problems.append('Auxiliary archive missing or checksum mismatch: ' + dataset['path'])
+                continue
+            with zipfile.ZipFile(path) as archive:
+                entries = {i.filename: i for i in archive.infolist() if not i.is_dir()}
+                expected = {r['archive_member']: r for r in dataset['records']}
+                if set(entries) != set(expected) or any(entries[k].file_size != expected[k]['bytes'] for k in expected):
+                    problems.append('Auxiliary recording inventory mismatch: ' + dataset['path'])
+                    continue
+            row.update(ok=True, sha256=dataset['sha256'], bytes=dataset['bytes'], cs8_entries=len(expected))
     return {'ok': not problems, 'datasets': datasets, 'problems': problems,
             'checks': ['archive byte count', 'archive SHA-256', 'ZIP directory entry set/size/CRC metadata', 'inclusion flags'],
             'payload_decompressed': False, 'full_payload_crc_recomputed': False}

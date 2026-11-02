@@ -1,0 +1,11 @@
+metric,comparison,difference,role,inference
+full_band_power_db,c40_minus_s40,0.5315715216147154,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+full_band_power_db,c80_minus_s80,0.4505498842551674,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+full_band_power_db,c80_minus_c40,0.7746041116478182,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+full_band_power_db,s80_minus_s40,0.8556257490073662,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+full_band_power_db,interaction_(c80-s80)-(c40-s40),-0.08102163735954804,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+fixed_peak_region_to_floor_db,c40_minus_s40,-0.8284521413887065,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+fixed_peak_region_to_floor_db,c80_minus_s80,0.0758959100917731,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+fixed_peak_region_to_floor_db,c80_minus_c40,-0.09333786199370886,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+fixed_peak_region_to_floor_db,s80_minus_s40,-0.9976859134741884,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value
+fixed_peak_region_to_floor_db,interaction_(c80-s80)-(c40-s40),0.9043480514804796,primary20MHz,descriptive technical-repeat contrast; gain/time/geometry metadata unresolved; no p-value

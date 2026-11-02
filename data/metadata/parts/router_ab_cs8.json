@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "archives": [
+    {
+      "path": "data/auxiliary/router_ab_cs8.zip",
+      "bytes": 31349456,
+      "sha256": "a831e89a1f0afd14ca96d71bb9c61b005b563d3c1b782086d8fa055e0923ca3c",
+      "parts": [
+        {
+          "path": "data/parts/router_ab_cs8/part-001.bin",
+          "bytes": 6291456,
+          "sha256": "eca7f540ef98bf6a4edddeec1b3c63d091d6e52757280c66528d0ca208ee2696"
+        },
+        {
+          "path": "data/parts/router_ab_cs8/part-002.bin",
+          "bytes": 6291456,
+          "sha256": "798d5e7f4669b98e0e628849142f19597420b40260d5f73eadb76a77f1004f5f"
+        },
+        {
+          "path": "data/parts/router_ab_cs8/part-003.bin",
+          "bytes": 6291456,
+          "sha256": "747a98a2dc09c8dd864df08e10cb256774e59649b1b0fe97608388f94957aced"
+        },
+        {
+          "path": "data/parts/router_ab_cs8/part-004.bin",
+          "bytes": 6291456,
+          "sha256": "fe1e65453cbd9c584011a44c34bd5970b5f24f2011c34751ad4b1a9ff3901c4c"
+        },
+        {
+          "path": "data/parts/router_ab_cs8/part-005.bin",
+          "bytes": 6183632,
+          "sha256": "2faf2ba46b5b198b9c1d96faa2d83dadab7ae73b82cb9c7b57973a6546dea920"
+        }
+      ]
+    }
+  ]
+}

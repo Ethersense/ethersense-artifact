@@ -1,0 +1,60 @@
+unit_id,model,native_ac_m,secondary_type,secondary_length_m,extension_m,ac_path_m
+U001,48 V generic charger,1.5,DC / battery,1.0,1.5,3.0
+U002,48 V generic charger,1.5,DC / battery,1.0,0.0,1.5
+U003,48 V generic charger,1.8,DC / battery,1.2,1.5,3.3
+U004,48 V generic charger,1.5,DC / battery,1.0,0.0,1.5
+U005,48 V generic charger,1.8,DC / battery,1.0,0.0,1.8
+U006,48 V generic charger,1.5,DC / battery,1.0,1.5,3.0
+U007,48 V generic charger,1.5,DC / battery,1.2,0.0,1.5
+U008,48 V generic charger,1.8,DC / battery,1.0,0.0,1.8
+U009,48 V generic charger,1.5,DC / battery,1.0,1.5,3.0
+U010,48 V generic charger,1.5,DC / battery,1.0,0.0,1.5
+U011,60 V generic charger,1.5,DC / battery,1.0,1.5,3.0
+U012,60 V generic charger,1.8,DC / battery,1.2,0.0,1.8
+U013,60 V generic charger,1.5,DC / battery,1.0,1.5,3.0
+U014,60 V generic charger,2.0,DC / battery,1.2,0.0,2.0
+U015,60 V generic charger,1.5,DC / battery,1.0,1.5,3.0
+U016,Ninebot ES2 charger,1.2,DC / charging,1.2,0.0,1.2
+U017,Xiaomi M365 charger,1.5,DC / charging,1.2,1.5,3.0
+U018,Ninebot ES2 charger,1.5,DC / charging,1.0,0.0,1.5
+U019,Xiaomi M365 charger,1.2,DC / charging,1.2,0.0,1.2
+U020,Generic hoverboard charger A,1.2,DC / charging,1.0,0.0,1.2
+U021,Generic hoverboard charger B,1.5,DC / charging,1.0,1.5,3.0
+U022,DJI Mavic-series hub/charger,1.5,DC / battery,1.0,1.5,3.0
+U023,DJI Phantom-series charger,1.8,DC / battery,1.2,0.0,1.8
+U024,DJI Mavic-series charger,1.5,DC / battery,1.0,0.0,1.5
+U025,Gree fan heater,1.5,N/A,0.0,0.0,1.5
+U026,Gree fan heater,1.5,N/A,0.0,1.5,3.0
+U027,Dyson AM09,1.8,N/A,0.0,0.0,1.8
+U028,Dyson AM09,1.8,N/A,0.0,0.0,1.8
+U029,Dyson Supersonic,2.7,N/A,0.0,0.0,2.7
+U030,Philips BHD356/10,1.8,N/A,0.0,0.0,1.8
+U031,Philips BHD356/10,1.8,N/A,0.0,0.0,1.8
+U032,"Creality Ender-3 V2, US cord variant",1.5,N/A,0.0,0.0,1.5
+U033,Prusa i3,1.5,N/A,0.0,1.5,3.0
+U034,Midea Cube 50-pint,1.8,N/A,0.0,0.0,1.8
+U035,Panasonic dehumidifier,1.8,N/A,0.0,1.5,3.3
+U036,Mia Coco-style heated blanket A,1.8,\makecell[l]{Controller /\\heating},2.3,0.0,1.8
+U037,Mia Coco-style heated blanket B,1.8,\makecell[l]{Controller /\\heating},2.6,0.0,1.8
+U038,Serta Corded Blanket,1.83,\makecell[l]{Controller /\\heating},3.35,0.00,1.83
+U039,Bear toaster oven,1.0,N/A,0.0,0.0,1.0
+U040,Midea toaster oven,0.9,N/A,0.0,1.5,2.4
+U041,Generic USB wall adapter + cable,0.0,USB / output,1.0,0.0,0.0
+U042,Generic USB wall adapter + cable,0.0,USB / output,1.0,0.0,0.0
+U043,Generic USB wall adapter + cable,0.0,USB / output,1.2,0.0,0.0
+U044,Generic USB wall adapter + cable,0.0,USB / output,1.0,0.0,0.0
+U045,Generic USB wall adapter + cable,0.0,USB / output,1.5,0.0,0.0
+U046,Generic USB wall adapter + cable,0.0,USB / output,1.0,0.0,0.0
+U047,Generic USB wall adapter + cable,0.0,USB / output,1.2,0.0,0.0
+U048,Generic USB wall adapter + cable,0.0,USB / output,1.0,0.0,0.0
+U049,Generic USB wall adapter + cable,0.0,USB / output,1.5,0.0,0.0
+U050,Generic USB wall adapter + cable,0.0,USB / output,1.0,0.0,0.0
+U051,Samsung 25 W,0.00,USB / output,1.00,0.00,0.00
+U052,Samsung 25 W,0.00,USB / output,1.00,0.00,0.00
+U053,Generic extension cord/power strip A,1.5,N/A,0.0,0.0,1.5
+U054,Generic extension cord/power strip B,3.0,N/A,0.0,0.0,3.0
+U055,Generic extension cord/power strip C,3.0,N/A,0.0,0.0,3.0
+U056,Generic extension cord/power strip D,5.0,N/A,0.0,0.0,5.0
+U057,Dell 65 W,2.00,DC / output,NR,0.00,2.00
+U058,Dell 65 W,2.00,DC / output,NR,0.00,2.00
+U059,Dell 65 W,2.00,DC / output,NR,0.00,2.00

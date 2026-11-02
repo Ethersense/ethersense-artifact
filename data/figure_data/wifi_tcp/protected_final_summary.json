@@ -1,0 +1,165 @@
+{
+  "run": "wifi_ab_v4_protected_20261020_234805_095",
+  "design": {
+    "experiment": "v4_protected_tcp_final",
+    "start": "2026-10-20T23:48:06.1453509+08:00",
+    "wifi_peer": "192.168.31.175",
+    "router_wifi": "192.168.31.132",
+    "external_lna_power": "not_remotely_verified",
+    "radio_role": "STA via upstream AP",
+    "ab_tests": [
+      "tx"
+    ],
+    "expected_ab_trials": 6,
+    "initial_cooldown_seconds": 60,
+    "prior_cooling": "300 s completed in preceding preparation; start remains below 60 C",
+    "tcp_seconds": 10,
+    "tcp_omit_seconds": 2,
+    "capture_hard_cap_seconds": 20,
+    "watchdog_seconds": 25,
+    "rest_seconds": 60,
+    "start_below_celsius": 60,
+    "stop_at_celsius": 70,
+    "fan_target_celsius": 55,
+    "fan_setting_storage": "temporary UCI delta, restored in finally",
+    "no_retry": true,
+    "wired_test": false,
+    "udp_test": false
+  },
+  "all_done": true,
+  "valid_trials": 6,
+  "expected_ab_trials": 6,
+  "health_samples": 104,
+  "observed_uptime_decreases": 0,
+  "temperature_max_c": 58.728,
+  "temperature_min_c": 54.624,
+  "memory_min_kib": 249092,
+  "rows": [
+    {
+      "trial": "P1_capture_tx",
+      "rep": 1,
+      "state": "capture",
+      "test": "tx",
+      "checksum_ok": true,
+      "verified_files": 16,
+      "valid": true,
+      "reason": "completed_and_verified",
+      "mbps_received": 38.726256483191676,
+      "router_cpu_busy_pct": 17.18641718641719,
+      "iperf_host_cpu_pct": 0.759730799160328,
+      "tcp_retransmits": 0,
+      "hackrf_rate_reports": 15,
+      "hackrf_mib_s_median": 40.1,
+      "hackrf_mib_s_min": 39.8,
+      "hackrf_flagged_lines": []
+    },
+    {
+      "trial": "P1_idle_tx",
+      "rep": 1,
+      "state": "idle",
+      "test": "tx",
+      "checksum_ok": true,
+      "verified_files": 14,
+      "valid": true,
+      "reason": "completed_and_verified",
+      "mbps_received": 31.944979226852972,
+      "router_cpu_busy_pct": 7.091055600322315,
+      "iperf_host_cpu_pct": 0.594916898144978,
+      "tcp_retransmits": 36
+    },
+    {
+      "trial": "P2_capture_tx",
+      "rep": 2,
+      "state": "capture",
+      "test": "tx",
+      "checksum_ok": true,
+      "verified_files": 16,
+      "valid": true,
+      "reason": "completed_and_verified",
+      "mbps_received": 38.00519002434146,
+      "router_cpu_busy_pct": 17.062937062937067,
+      "iperf_host_cpu_pct": 0.656230211011289,
+      "tcp_retransmits": 0,
+      "hackrf_rate_reports": 15,
+      "hackrf_mib_s_median": 40.1,
+      "hackrf_mib_s_min": 39.8,
+      "hackrf_flagged_lines": []
+    },
+    {
+      "trial": "P2_idle_tx",
+      "rep": 2,
+      "state": "idle",
+      "test": "tx",
+      "checksum_ok": true,
+      "verified_files": 14,
+      "valid": true,
+      "reason": "completed_and_verified",
+      "mbps_received": 32.435222826895085,
+      "router_cpu_busy_pct": 7.001214083367058,
+      "iperf_host_cpu_pct": 0.7396511554980523,
+      "tcp_retransmits": 9
+    },
+    {
+      "trial": "P3_capture_tx",
+      "rep": 3,
+      "state": "capture",
+      "test": "tx",
+      "checksum_ok": true,
+      "verified_files": 16,
+      "valid": true,
+      "reason": "completed_and_verified",
+      "mbps_received": 39.983686454539075,
+      "router_cpu_busy_pct": 17.25800895625216,
+      "iperf_host_cpu_pct": 0.950054821849496,
+      "tcp_retransmits": 2,
+      "hackrf_rate_reports": 15,
+      "hackrf_mib_s_median": 39.9,
+      "hackrf_mib_s_min": 39.8,
+      "hackrf_flagged_lines": []
+    },
+    {
+      "trial": "P3_idle_tx",
+      "rep": 3,
+      "state": "idle",
+      "test": "tx",
+      "checksum_ok": true,
+      "verified_files": 14,
+      "valid": true,
+      "reason": "completed_and_verified",
+      "mbps_received": 38.817335637928366,
+      "router_cpu_busy_pct": 7.710843373493981,
+      "iperf_host_cpu_pct": 0.4952160416448247,
+      "tcp_retransmits": 0
+    }
+  ],
+  "summaries": [
+    {
+      "label": "TCP 发送吞吐（Mbit/s）",
+      "test": "tx",
+      "metric": "mbps_received",
+      "values": {
+        "idle": {
+          "1": 31.944979226852972,
+          "2": 32.435222826895085,
+          "3": 38.817335637928366
+        },
+        "capture": {
+          "1": 38.726256483191676,
+          "2": 38.00519002434146,
+          "3": 39.983686454539075
+        }
+      },
+      "complete_pairs": [
+        1,
+        2,
+        3
+      ],
+      "paired_deltas": [
+        6.781277256338704,
+        5.569967197446374,
+        1.1663508166107093
+      ],
+      "paired_delta_median": 5.569967197446374
+    }
+  ]
+}

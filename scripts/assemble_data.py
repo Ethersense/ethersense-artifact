@@ -15,8 +15,17 @@ def digest(path):
     return h.hexdigest()
 
 def assemble(root=ROOT):
-    index = json.loads((root / 'data/metadata/review_parts.json').read_text(encoding='utf-8'))
-    for item in index['archives']:
+    indexes = sorted((root / 'data/metadata/parts').glob('*.json'))
+    legacy = root / 'data/metadata/review_parts.json'
+    if legacy.is_file():
+        indexes.insert(0, legacy)
+    archives = {}
+    for path in indexes:
+        for item in json.loads(path.read_text(encoding='utf-8'))['archives']:
+            archives[item['path']] = item
+    if not archives:
+        raise FileNotFoundError('No released data-part manifest found.')
+    for item in archives.values():
         dest = root / item['path']
         if dest.is_file() and dest.stat().st_size == item['bytes'] and digest(dest) == item['sha256']:
             print('Already verified:', item['path'])

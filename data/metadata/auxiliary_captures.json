@@ -1,0 +1,164 @@
+{
+  "datasets": [
+    {
+      "id": "router_ab_cs8",
+      "path": "data/auxiliary/router_ab_cs8.zip",
+      "bytes": 31349456,
+      "sha256": "a831e89a1f0afd14ca96d71bb9c61b005b563d3c1b782086d8fa055e0923ca3c",
+      "records": [
+        {
+          "archive_member": "env1.cs8",
+          "bytes": 40000000,
+          "sha256": "831ac8b4d61c88c29ab802175836bcaac40143b2078431eaaf55a0bbcd266958",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "env2.cs8",
+          "bytes": 40000000,
+          "sha256": "6438e4eba373f0d5220887ebb4c60e561f1fb23f250797ff2375310b5c452298",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "env3.cs8",
+          "bytes": 40000000,
+          "sha256": "d631d2729b93b23ea8624202ce04a8b877abc9b70022beb6a02a1b6644667ae2",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "target1.cs8",
+          "bytes": 40000000,
+          "sha256": "806260f6bb53a70e041f411177ef86006c092ebf0ed78e8986b636b1c47c7fd5",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "target2.cs8",
+          "bytes": 40000000,
+          "sha256": "cac8dd6c5f8bf16d1a0a1a950f0bddba0be0727c167ce1c17bc81ff5cd46f1c6",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "target3.cs8",
+          "bytes": 40000000,
+          "sha256": "2394f07de396a85afd54ea0d810a44fe919af7fee0d4773de7eb95a47e24ec6c",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        }
+      ]
+    },
+    {
+      "id": "wifi_feature_probe_cs8",
+      "path": "data/auxiliary/wifi_feature_probe_cs8.zip",
+      "bytes": 40737430,
+      "sha256": "d619a5067f1df034b281d4c8b51d66332ecde90de7b45b3e51a050aa56a9f840",
+      "records": [
+        {
+          "archive_member": "B1_idle/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "8b250fb0bbf5bb7804b5b03cc2dac0c129de4818809b0f901a8a844b813c28fe",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B1_udp25/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "dc072547ee2c0bb88164ef6603fd4416531b7ac88fc97602a44d9e8099e88b6e",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B1_udp5/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "13e4b3532a1bbcc3033053ad4a7605fcd422727eb6647bc0a8ad9e523d177fcc",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B2_idle/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "434d9581b89e306d5a1a9c2fb8d957b4a9d885884b5137c15934be265641e1b3",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B2_udp25/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "ff42eeedd45b9cc5b08d67936dc2b95ac6133c95cf5fd1401da7a4564e3c22ec",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B2_udp5/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "f0ec96fc14080dd7cf54f3d0f357db05db0844e1281c91b4e001180c5caf4dd9",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B3_idle/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "9451cb6e0dc118a15c8f3952b7bbe079d6b009968e4705fda92b97e01305b8f0",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B3_udp25/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "c6d41c7d95986ea64ade783ef357e002fda1afa6f3bf494f577c6619c6237a4c",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "B3_udp5/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "467cc97ab27ee0952d49f86a7fd2ea61590b158765192fc8cb74dc512f1d0208",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        },
+        {
+          "archive_member": "REF_idle/capture.cs8",
+          "bytes": 40000000,
+          "sha256": "72f1286d88828719f907d2f46a2e7025475e8c6bf61f602bc2db7fc1eaf42d74",
+          "storage": "signed int8 interleaved I/Q",
+          "sample_rate_hz": 20000000,
+          "center_frequency_hz": 20000000,
+          "complex_samples": 20000000
+        }
+      ]
+    }
+  ]
+}

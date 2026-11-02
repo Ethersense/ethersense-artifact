@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "archives": [
+    {
+      "path": "data/auxiliary/wifi_feature_probe_cs8.zip",
+      "bytes": 40737430,
+      "sha256": "d619a5067f1df034b281d4c8b51d66332ecde90de7b45b3e51a050aa56a9f840",
+      "parts": [
+        {
+          "path": "data/parts/wifi_feature_probe_cs8/part-001.bin",
+          "bytes": 6291456,
+          "sha256": "202c69311c697591b9578c93a13466fe453cf2a3e6fb80cb7fc9636596b4f5d5"
+        },
+        {
+          "path": "data/parts/wifi_feature_probe_cs8/part-002.bin",
+          "bytes": 6291456,
+          "sha256": "a77b37fd5d063408d159c773dc769545a029a0a3a78399f7e538812e201c2d60"
+        },
+        {
+          "path": "data/parts/wifi_feature_probe_cs8/part-003.bin",
+          "bytes": 6291456,
+          "sha256": "298263660a0a7b49dea4948815fa74bead4afeb7071dd0761cf4a7eca7675a76"
+        },
+        {
+          "path": "data/parts/wifi_feature_probe_cs8/part-004.bin",
+          "bytes": 6291456,
+          "sha256": "551c9c99f6bb25406f2436c125bea6ba9061a13aeeebc0d7e4078fb5024bb347"
+        },
+        {
+          "path": "data/parts/wifi_feature_probe_cs8/part-005.bin",
+          "bytes": 6291456,
+          "sha256": "f97df7f66f85dbde06e20003b9e105454255947675ba592a391dedcfa4d3ad52"
+        },
+        {
+          "path": "data/parts/wifi_feature_probe_cs8/part-006.bin",
+          "bytes": 6291456,
+          "sha256": "790cada952c12523f6e1f9eeb8d0e71bb89871bbb01da55cf6af0929e4985ea7"
+        },
+        {
+          "path": "data/parts/wifi_feature_probe_cs8/part-007.bin",
+          "bytes": 2988694,
+          "sha256": "5b349086eed4b3fb0b6e769869725b47fdb219ccec5ef3c647e17f41c9caed9b"
+        }
+      ]
+    }
+  ]
+}
