@@ -1,0 +1,572 @@
+[
+  {
+    "dataset": "cord_length_20261101",
+    "record_id": "cord_length_20261101_01",
+    "archive": "data/raw/cord_length_20261101/cable_lengths_1to4m.zip",
+    "member": "02-11-38_20000000Hz.wav"
+  },
+  {
+    "dataset": "cord_length_20261101",
+    "record_id": "cord_length_20261101_02",
+    "archive": "data/raw/cord_length_20261101/cable_lengths_1to4m.zip",
+    "member": "02-11-42_20000000Hz.wav"
+  },
+  {
+    "dataset": "cord_length_20261101",
+    "record_id": "cord_length_20261101_03",
+    "archive": "data/raw/cord_length_20261101/cable_lengths_1to4m.zip",
+    "member": "02-11-46_20000000Hz.wav"
+  },
+  {
+    "dataset": "cord_length_20261101",
+    "record_id": "cord_length_20261101_04",
+    "archive": "data/raw/cord_length_20261101/cable_lengths_1to4m.zip",
+    "member": "02-11-52_20000000Hz.wav"
+  },
+  {
+    "dataset": "wall_pairs_20261101",
+    "record_id": "wall_pairs_20261101_01",
+    "archive": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "member": "2026_11_02/00-41-01_20038000Hz.wav"
+  },
+  {
+    "dataset": "wall_pairs_20261101",
+    "record_id": "wall_pairs_20261101_02",
+    "archive": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "member": "2026_11_02/00-41-49_20038000Hz.wav"
+  },
+  {
+    "dataset": "wall_pairs_20261101",
+    "record_id": "wall_pairs_20261101_03",
+    "archive": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "member": "2026_11_02/00-42-17_20038000Hz.wav"
+  },
+  {
+    "dataset": "wall_pairs_20261101",
+    "record_id": "wall_pairs_20261101_04",
+    "archive": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "member": "2026_11_02/00-42-55_20038000Hz.wav"
+  },
+  {
+    "dataset": "wall_pairs_20261101",
+    "record_id": "wall_pairs_20261101_05",
+    "archive": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "member": "2026_11_02/00-43-39_20038000Hz.wav"
+  },
+  {
+    "dataset": "wall_pairs_20261101",
+    "record_id": "wall_pairs_20261101_06",
+    "archive": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "member": "2026_11_02/00-44-09_20038000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_C01",
+    "archive": "data/raw/parallel_load_states/parallel_load_states.zip",
+    "member": "补充实验数据/并联实验/20-10-22_19600000Hz_电瓶车断开.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_C02",
+    "archive": "data/raw/parallel_load_states/parallel_load_states.zip",
+    "member": "补充实验数据/并联实验/20-10-53_19600000Hz_全部连接.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_C03",
+    "archive": "data/raw/parallel_load_states/parallel_load_states.zip",
+    "member": "补充实验数据/并联实验/20-11-09_19600000Hz_电器2断开.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_C04",
+    "archive": "data/raw/parallel_load_states/parallel_load_states.zip",
+    "member": "补充实验数据/并联实验/20-11-33_19600000Hz_全部断开.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B01",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-54-00_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B02",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-54-07_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B03",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-54-15_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B04",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-54-26_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B05",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-54-36_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B06",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-54-54_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B07",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-55-06_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B08",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-55-15_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B09",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-55-23_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_B10",
+    "archive": "data/raw/along_line_1to10m/along_line_1to10m.zip",
+    "member": "补充实验数据/导线实验2（沿着导线1-10m）/19-55-34_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A01",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-34-26_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A02",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-34-58_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A03",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-35-17_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A04",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-35-32_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A05",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-35-54_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A06",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-36-24_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A07",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-36-57_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A08",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-37-18_20000000Hz.wav"
+  },
+  {
+    "dataset": "supp",
+    "record_id": "S_A09",
+    "archive": "data/raw/wire_distance_across_line/wire_distance_across_line.zip",
+    "member": "补充实验数据/导线实验/19-37-47_20000000Hz.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261001",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.1.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261002",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.2.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261003",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.3.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261004",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.4.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261005",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.5.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261006",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.6.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261007",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.7.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261008",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.8.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261009",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.9.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261010",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.10.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261011",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.11.wav"
+  },
+  {
+    "dataset": "daily_stability_12days",
+    "record_id": "ST_20261012",
+    "archive": "data/raw/daily_stability_12days/daily_stability_12days.zip",
+    "member": "2026_10_21/10.12.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c120_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c120cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c120_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c120cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c120_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c120cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c120_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c120cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c040_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c40cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c040_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c40cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c040_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c40cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c040_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c40cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c080_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c80cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c080_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c80cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c080_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c80cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_c080_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/c80cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s000_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s0cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s000_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s0cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s000_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s0cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s000_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s0cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s100_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s100cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s100_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s100cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s100_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s100cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s100_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s100cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s120_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s120cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s120_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s120cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s120_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s120cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s120_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s120cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s140_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s140cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s140_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s140cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s140_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s140cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s140_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s140cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s150_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s150cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s160_r1_terminal",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s160cm-1(terminal).wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s160_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s160cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s160_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s160cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s020_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s20cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s020_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s20cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s020_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s20cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s020_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s20cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s040_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s40cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s040_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s40cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s040_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s40cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s040_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s40cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s060_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s60cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s060_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s60cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s060_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s60cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s060_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s60cm-4.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s080_r1",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s80cm-1.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s080_r2",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s80cm-2.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s080_r3",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s80cm-3.wav"
+  },
+  {
+    "dataset": "k4_cable",
+    "record_id": "K_W_s080_r4",
+    "archive": "data/raw/cord_routing_48/cord_routing_48.zip",
+    "member": "电热器2  十天稳定性+电线弯直实验/s80cm-4.wav"
+  },
+  {
+    "dataset": "router_waveform_reference",
+    "record_id": "router_waveform_reference_01",
+    "archive": "data/raw/router_waveform_reference/router_waveform_reference.zip",
+    "member": "2026_10_19/环境.wav"
+  },
+  {
+    "dataset": "router_waveform_reference",
+    "record_id": "router_waveform_reference_02",
+    "archive": "data/raw/router_waveform_reference/router_waveform_reference.zip",
+    "member": "2026_10_19/目标.wav"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "release": "2026-11-01",
+  "release": "2026-11-02",
   "code_cutoff": "2026-10-22 inclusive (campaign dates)",
   "datasets": [
     {
@@ -23,7 +23,8 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 1,
           "analysis_included": true,
-          "wav_sha256": "bba5d3e4c16e6e14d7fbe616a7fd96152c073a755caa01386c01d81b0c24c083"
+          "wav_sha256": "bba5d3e4c16e6e14d7fbe616a7fd96152c073a755caa01386c01d81b0c24c083",
+          "review_label": "cable_1m"
         },
         {
           "dataset": "cord_length_20261101",
@@ -39,7 +40,8 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 2,
           "analysis_included": true,
-          "wav_sha256": "366c771dc26fa5587a97a481b0e1c903f3c56cf8931e9812f335175306f170b8"
+          "wav_sha256": "366c771dc26fa5587a97a481b0e1c903f3c56cf8931e9812f335175306f170b8",
+          "review_label": "cable_2m"
         },
         {
           "dataset": "cord_length_20261101",
@@ -55,7 +57,8 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 3,
           "analysis_included": true,
-          "wav_sha256": "3b5d4e8aaf937a0f3d3078181648bf13615b750932bc3d2cd7356aa9d9d37b88"
+          "wav_sha256": "3b5d4e8aaf937a0f3d3078181648bf13615b750932bc3d2cd7356aa9d9d37b88",
+          "review_label": "cable_3m"
         },
         {
           "dataset": "cord_length_20261101",
@@ -71,7 +74,8 @@
           "center_frequency_hz_from_filename": 20000000,
           "cable_length_m": 4,
           "analysis_included": true,
-          "wav_sha256": "4e9458c25e90c35cbd7872da5a07988a3912b01e7102a161606a644b5b60877f"
+          "wav_sha256": "4e9458c25e90c35cbd7872da5a07988a3912b01e7102a161606a644b5b60877f",
+          "review_label": "cable_4m"
         }
       ],
       "packaging": "Repacked to include only the four author-confirmed valid WAV entries. WAV bytes unchanged."
@@ -97,7 +101,9 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 1,
           "wall_present": false,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_01_no_wall",
+          "wav_sha256": "8c40fa041ef3c06db89328961d642063bb40526428092f805c1f637c4f23ffeb"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -113,7 +119,9 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 1,
           "wall_present": true,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_01_with_wall",
+          "wav_sha256": "994ddea85b1551f220b3470341393331a616d8738ec455187a081e2136cea553"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -129,7 +137,9 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 2,
           "wall_present": false,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_02_no_wall",
+          "wav_sha256": "f2883209ac3a00aea36fd7d4e7b1a88f89f4a648ddaba677939f95518df0ba75"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -145,7 +155,9 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 2,
           "wall_present": true,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_02_with_wall",
+          "wav_sha256": "e72c1b8d80d6110dbdaadf23edfb3458567fad494ca895955cf8674f9d89b1bf"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -161,7 +173,9 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 3,
           "wall_present": false,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_03_no_wall",
+          "wav_sha256": "39a5d77adc4b62bcd77c4933e5005826f3353000c1cead671ebe4a76c49233a1"
         },
         {
           "dataset": "wall_pairs_20261101",
@@ -177,7 +191,9 @@
           "center_frequency_hz_from_filename": 20038000,
           "pair": 3,
           "wall_present": true,
-          "analysis_included": true
+          "analysis_included": true,
+          "review_label": "wall_pair_03_with_wall",
+          "wav_sha256": "2d564deb3959f435686d952983050268cc35383224af390585fb00b277adade4"
         }
       ]
     },
@@ -1837,7 +1853,45 @@
         }
       ],
       "packaging": "Valid WAV members copied without changing their raw or compressed bytes; full payload CRC and SHA-256 verified."
+    },
+    {
+      "id": "router_waveform_reference",
+      "path": "data/raw/router_waveform_reference/router_waveform_reference.zip",
+      "bytes": 20737340,
+      "sha256": "fa7c4227ee4b78abc290f7e230893eee579f39193c288126b227442efb401051",
+      "records": [
+        {
+          "dataset": "router_waveform_reference",
+          "ordinal": 1,
+          "archive_member": "2026_10_19/环境.wav",
+          "bytes": 118227024,
+          "zip_crc32": "19c27a0e",
+          "sample_rate_hz": 20000000,
+          "channels": 2,
+          "bits_per_sample": 8,
+          "data_bytes": 118226944,
+          "duration_s": 2.9556736,
+          "analysis_included": true,
+          "review_label": "environment",
+          "wav_sha256": "5cfe3e89d0bfa307193a7d233421097607a73b89ae1fe356fdae71530520f72f"
+        },
+        {
+          "dataset": "router_waveform_reference",
+          "ordinal": 2,
+          "archive_member": "2026_10_19/目标.wav",
+          "bytes": 153092176,
+          "zip_crc32": "aea827f0",
+          "sample_rate_hz": 20000000,
+          "channels": 2,
+          "bits_per_sample": 8,
+          "data_bytes": 153092096,
+          "duration_s": 3.8273024,
+          "analysis_included": true,
+          "review_label": "target",
+          "wav_sha256": "c61a526e89807459a7754855b291adaae8807390ad94f8e35675d155266f4dfd"
+        }
+      ]
     }
   ],
-  "release_status": "Data and code are being uploaded progressively."
+  "release_status": "Supplementary data and code are being uploaded progressively; this is not the complete original recognition dataset."
 }

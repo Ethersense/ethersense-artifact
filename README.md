@@ -1,103 +1,46 @@
-# EtherSense Artifact
+# EtherSense supplementary measurement artifact
 
-Major-revision measurement code and recorded data for EtherSense.
-Repository: https://anonymous.4open.science/r/ethersense-artifact-236E/
+**Data and code are being uploaded progressively.** This release contains the valid supplementary recordings and numerical inputs associated with the added figures.
 
-## This release
-
-Data and code are being uploaded progressively. This is a partial release. It contains applicable measurement and analysis sources from the
-major-revision campaigns through **2026-10-22**, together with **four valid cable-length recordings
-and six new wall-pair recordings**. Invalid entries were removed before packaging.
-
-The complete paper dataset and recognition implementation have not yet been released. The analysis
-code and processed tables in this batch cover the released measurements only; this repository does
-not currently reproduce every result reported in the paper. Further author-approved valid recordings
-and their supporting code may be added in later batches. Earlier wall data, rejected router campaigns,
-original-paper plotting notebooks and simulated-data figure code remain excluded under the current
-release policy.
-
-| Path | Included content |
-|---|---|
-| `src/preprocessing/` | Router capture helpers, the PSD C source and the historical ARM PSD binary |
-| `src/features/analyze_ab.py` | Historical recorded-data A/B PSD analysis |
-| `revision_workspace/results/` | Measurement and analysis sources from the 2026-10-14 to 2026-10-22 campaigns |
-| `data/raw/cord_length_20261101/cable_lengths_1to4m.zip` | Four WAVs: 1, 2, 3 and 4 m; valid WAV bytes preserved |
-| `data/raw/wall_pairs_20261101/2026_11_02.zip` | Six WAVs forming three new no-wall / wall pairs |
-| `data/metadata/` | Archive hashes, valid-record labels and source provenance |
-| `data/processed/` | Measured summary tables for the two new valid batches |
+Anonymous review access: https://anonymous.4open.science/r/ethersense-artifact-236E/
 
 ## Download and validate
 
-Python 3.10+ is sufficient for inventory validation (standard library only). Git LFS stores the ZIPs.
+Download and extract the repository ZIP from the anonymous page, then run:
 
 ```sh
-# In an existing clone (or download and extract the anonymous repository ZIP):
-git lfs install
-git lfs pull
 python scripts/assemble_data.py
 python scripts/validate_data.py
 python scripts/reproduce_all.py manifest
 ```
 
-Validation checks archive hashes and the stored ZIP inventory. Manifest inspection additionally
-reads WAV headers. It does not recompute spectra, run recognition or decompress the full payload.
-For the historical numerical sources, install `requirements.txt` and read
-[`revision_workspace/README.md`](revision_workspace/README.md); each entry documents its expected
-inputs and host-specific parameters.
+Python 3.10 or later is sufficient for inventory validation. Every released archive has ordinary binary parts of at most 6 MiB; Git LFS is not required for reconstruction from this snapshot. Archive and member names retain their original measurement provenance; the manifest adds explicit condition labels.
 
-## Labels and measurement scope
+## Released measurements
 
-- Cable WAVs in timestamp order correspond to **1 m, 2 m, 3 m, 4 m**. Invalid or empty source entries
-  were removed before packaging and are not present in the released ZIP.
-- New wall WAVs in timestamp order form pairs **1/2**, **3/4**, **5/6**. Odd entries are no-wall;
-  even entries are wall-present. The new batch is the sole wall dataset used for current analysis.
-- All ten released WAV headers report two channels, **20 MS/s**, 8-bit PCM. Filename suffixes label
-  tuning centers: 20 MHz for cable and 20.038 MHz for wall; the latter is not the sample rate.
-- `2026_11_02` is the preserved source archive name, not independently verified acquisition dating.
-- Acquisition conditions for the new batches are being compiled and will be added to
-  `data/metadata/` as they are finalised. Spectrum similarity and visible peaks are not
-  classification accuracy, calibrated dBm or wall insertion loss.
+| Dataset | Valid recordings |
+|---|---:|
+| `cord_length_20261101` | 4 WAVs |
+| `wall_pairs_20261101` | 6 WAVs |
+| `parallel_load_states` | 4 WAVs |
+| `along_line_1to10m` | 10 WAVs |
+| `wire_distance_across_line` | 9 WAVs |
+| `daily_stability_12days` | 12 WAVs |
+| `cord_routing_48` | 48 WAVs |
+| `router_waveform_reference` | 2 WAVs |
+| `router_ab_cs8` | 6 signed-IQ captures |
+| `wifi_feature_probe_cs8` | 10 signed-IQ captures |
 
-The original-paper recognition implementation is being prepared for upload. Directories for the
-remaining experiments stay in place while their recordings are curated; [`RELEASE_SCOPE.md`](RELEASE_SCOPE.md)
-records the current scope of this batch.
+There are **95 valid WAV recordings and 16 signed-IQ captures** in these archives. Raw TCP measurements and associated acquisition records are in `data/figure_data/wifi_tcp/`. The [figure-data index](docs/figure_data_map.md) maps the added figures to recordings, numerical tables and compact arrays; the [recording manifest](data/metadata/recordings.csv) gives condition labels and hashes.
 
-## Citation
+## Scope
 
-This artifact is published anonymously. If you use the released recordings or the analysis code,
-please cite the repository:
+The released groups include the 1–10 m receiver-position series, parallel-load states, 48 cord-routing records, twelve-day heater recordings, the new paired-wall study and the direct 1–4 m cord-length comparison. Receiver position, cord routing labels and physical cord length are distinct quantities.
 
-> Anonymous. *EtherSense Artifact: Released Recordings, Analysis Code and Revision Workspace*.
-> GitHub, 2026. <https://anonymous.4open.science/r/ethersense-artifact-236E/>
+Only author-approved valid cohorts are released. Old wall data, withdrawn 1587 MHz runs, invalid cable entries, withdrawn ON/OFF experiments and excluded later router campaigns are omitted. Original-paper plotting notebooks and simulated-data figure code are not distributed. The complete original recognition dataset is outside this supplementary release.
 
-```bibtex
-@misc{ethersense_artifact_2026,
-  author       = {Anonymous},
-  title        = {{EtherSense} Artifact: Released Recordings, Analysis Code and Revision Workspace},
-  year         = {2026},
-  month        = nov,
-  publisher    = {GitHub},
-  howpublished = {\url{https://anonymous.4open.science/r/ethersense-artifact-236E/}},
-  note         = {Anonymous research artifact accompanying the IMWUT submission
-                  ``Lens-Free, Plug-Free, and Retrofit-Free: Repurposing Wi-Fi APs
-                  into Ubiquitous Electrical Sentinels''}
-}
-```
+## Analysis and citation
 
-The machine-readable form is [`CITATION.cff`](CITATION.cff).
+Historical numerical sources are retained under `revision_workspace/`; additional recorded-data analyses are in `analysis/`. See [analysis entry points](docs/analysis_entry_points.md) and [envelope replay](docs/replay_envelope_analysis.md).
 
-## Progressive measurement-data uploads
-
-Data and code are being uploaded progressively. The following additional measured cohorts are available as verified data parts. Run `python scripts/assemble_data.py` after obtaining the files.
-
-| Dataset | Valid recordings | Reconstructed archive |
-|---|---:|---|
-| `parallel_load_states` | 4 | `data/raw/parallel_load_states/parallel_load_states.zip` |
-| `along_line_1to10m` | 10 | `data/raw/along_line_1to10m/along_line_1to10m.zip` |
-| `wire_distance_across_line` | 9 | `data/raw/wire_distance_across_line/wire_distance_across_line.zip` |
-| `daily_stability_12days` | 12 | `data/raw/daily_stability_12days/daily_stability_12days.zip` |
-| `cord_routing_48` | 48 | `data/raw/cord_routing_48/cord_routing_48.zip` |
-
-The ten original cable-length and new-wall WAVs remain available in the two original LFS archives. Withdrawn or invalid cohorts are excluded. The released measurements do not constitute the complete original recognition dataset.
-
-[Figure-to-data index](docs/figure_data_map.md) | [Anonymous review access](https://anonymous.4open.science/r/ethersense-artifact-236E/)
+Anonymous. *EtherSense: Supplementary Measurement Data and Analysis Code*. 2026. https://anonymous.4open.science/r/ethersense-artifact-236E/

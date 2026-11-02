@@ -1,0 +1,38 @@
+{
+  "manuscript_pages": 44,
+  "manuscript_sha256": "7b031149627d6e6b26b127ede9d5918a6950130e6c23f68cf54918306f1d633c",
+  "figure_assets": [
+    {
+      "figure_asset": "D2_modulation_spectra.pdf",
+      "sha256": "d1907016ca1b36be225bbb67b2dd631bb55c22cb1129a57f29702a08a5611275"
+    },
+    {
+      "figure_asset": "D3_parallel_modulation_maps.pdf",
+      "sha256": "82753412584f2979b328639f3e6eabd472a3d01b9fd4c83dacc59ffbc8661266"
+    },
+    {
+      "figure_asset": "D10_alongline_features.pdf",
+      "sha256": "651afe0f0596468ba8e3fc3cbf102e3ca4198e4bdc64b4edb36b48c95d7d0ddc"
+    },
+    {
+      "figure_asset": "D7_daily_stability.pdf",
+      "sha256": "1dddfee2a401e070a62b3a9c1127948bcc63152bb5ddac03652f08f40fd684b7"
+    },
+    {
+      "figure_asset": "D4_cable_layout_v3.pdf",
+      "sha256": "0a58aaa094dd130a1dbd9033d2dacd5143bfa01ba7d9fee732ce40ad0c926a99"
+    },
+    {
+      "figure_asset": "D6_wifi_paired.pdf",
+      "sha256": "5fba6fcfd1cc1aa8896039d6bdaa6b016fe8124cd73abf254feb56019a28cf60"
+    },
+    {
+      "figure_asset": "comb_zoom.png",
+      "sha256": "c9597eac59eeaa5e9b8671b17e1b6f4e13c06d201a20fce91043747df47497a0"
+    },
+    {
+      "figure_asset": "spectra_comparison.png",
+      "sha256": "0d6bf5d619626ffe3d50462af28cdd9c3457cb85c327a2b93b37b548d8296c7f"
+    }
+  ]
+}

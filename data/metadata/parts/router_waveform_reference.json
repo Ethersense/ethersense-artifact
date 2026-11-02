@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "archives": [
+    {
+      "path": "data/raw/router_waveform_reference/router_waveform_reference.zip",
+      "bytes": 20737340,
+      "sha256": "fa7c4227ee4b78abc290f7e230893eee579f39193c288126b227442efb401051",
+      "parts": [
+        {
+          "path": "data/parts/router_waveform_reference/part-001.bin",
+          "bytes": 6291456,
+          "sha256": "5bf487f47322e3d71404e9271d2502045d1233f7bb18f7a57c15baabcb5c1a7a"
+        },
+        {
+          "path": "data/parts/router_waveform_reference/part-002.bin",
+          "bytes": 6291456,
+          "sha256": "8cf10762a9236b767dd913893152decc98fef1f38051bf769f5a13cbc39cd730"
+        },
+        {
+          "path": "data/parts/router_waveform_reference/part-003.bin",
+          "bytes": 6291456,
+          "sha256": "b9014a3c8312dd7fe8e045f04c70f9ffa64b88343ad13aa47987ebb9b383a1ec"
+        },
+        {
+          "path": "data/parts/router_waveform_reference/part-004.bin",
+          "bytes": 1862972,
+          "sha256": "595fd5c04ab69a71c2002a542814112551999e9b981e9fc4632fb36363341b4c"
+        }
+      ]
+    }
+  ]
+}

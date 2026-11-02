@@ -18,3 +18,5 @@ Processed numerical inputs are in `data/figure_data/`. The CSV index links each 
 Figure 15 retains upper panels from an earlier wall session in this manuscript snapshot. That cohort has been withdrawn and is not released, including its background and 0 m records. The three lower heater panels use the released routing cohort.
 
 Figures 1, 6 and 7 are schematic illustrations; Figure 8 is a hardware photograph, without a numerical measurement cohort. The new architecture illustration and hardware photograph are supplied in `docs/assets/`. Restyled or reused pre-existing figures are outside the newly recorded cohorts listed here. The complete original recognition dataset is not represented as released.
+
+Figure 13 depicts normal and hazard operating states (heater fan operation/stall, charger charging/arcing, and hairdryer normal/blocked intake). The corresponding state-labelled raw recordings have not been located in the available material. No recording is assigned to these panels without evidence.

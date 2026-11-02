@@ -7,3 +7,4 @@ figure,caption_topic,raw_datasets,record_selection,figure_data_directory,scope_n
 20,Cord-layout observations,cord_routing_48,12 layouts x 4 technical repetitions,cord_routing,Position labels describe routing geometry; not the 1-4 m length study.
 21,Wi-Fi TCP send throughput,wifi_tcp_coexistence,Initial completed pairs and final three protected pairs,wifi_tcp,Successful throughput records only; aborted protection attempts excluded.
 S1,Direct 1-4 m cord-length comparison,cord_length_20261101,Four valid 1/2/3/4 m recordings,cable_lengths,Invalid fifth and empty sixth source files are absent.
+13,Hazard-state fingerprints,unlocated,State-labelled raw recordings not located,,No substitute recordings are assigned to these panels.

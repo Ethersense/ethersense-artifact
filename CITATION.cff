@@ -1,20 +1,13 @@
 cff-version: 1.2.0
-message: "If you use the released recordings or the analysis code, please cite this artifact as below."
-type: software
-title: "EtherSense Artifact: Released Recordings, Analysis Code and Revision Workspace"
-abstract: >-
-  Anonymous research artifact accompanying the IMWUT submission "Lens-Free, Plug-Free,
-  and Retrofit-Free: Repurposing Wi-Fi APs into Ubiquitous Electrical Sentinels".
-  Contains the released cable-length and wall-pair IQ recordings, the preprocessing and
-  Welch analysis code, and the revision measurement workspace used to produce the
-  published spectral measurements.
+message: "Please cite the anonymous measurement artifact supplied with the submission."
+type: dataset
+title: "EtherSense: Supplementary Measurement Data and Analysis Code"
 authors:
   - name: "Anonymous"
 version: "2026.11"
 date-released: "2026-11-02"
 url: "https://anonymous.4open.science/r/ethersense-artifact-236E/"
-keywords:
-  - Wi-Fi sensing
-  - electrical load monitoring
-  - spectral analysis
-  - software artifact
+abstract: >-
+  An evolving anonymous review artifact containing valid supplementary cable-length,
+  along-line, parallel-load, cord-routing, multi-day, wall-pair and router recordings,
+  with numerical inputs and measurement-analysis code.
