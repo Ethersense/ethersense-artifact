@@ -5,16 +5,19 @@ Repository: https://github.com/Ethersense/ethersense-artifact
 
 ## This release
 
-This batch contains the measurement and analysis sources from the major-revision campaigns through
-**2026-10-22**, together with the **valid cable-length and new wall-pair recordings** confirmed by the
-authors. Only confirmed-valid recordings are packaged: invalid entries were removed from the archives
-before upload. The remaining campaign recordings and the recognition implementation are being
-curated and will follow in subsequent uploads. Figure-generation utilities are maintained separately
-and are not part of this release; the released analysis code and processed tables cover every
-measured quantity reported in the paper.
+This is a partial release. It contains applicable measurement and analysis sources from the
+major-revision campaigns through **2026-10-22**, together with **four valid cable-length recordings
+and six new wall-pair recordings**. Invalid entries were removed before packaging.
+
+The complete paper dataset and recognition implementation have not yet been released. The analysis
+code and processed tables in this batch cover the released measurements only; this repository does
+not currently reproduce every result reported in the paper. Further author-approved valid recordings
+and their supporting code may be added in later batches. Earlier wall data, rejected router campaigns,
+original-paper plotting notebooks and simulated-data figure code remain excluded under the current
+release policy.
 
 | Path | Included content |
-|---|---|---|
+|---|---|
 | `src/preprocessing/` | Router capture helpers, the PSD C source and the historical ARM PSD binary |
 | `src/features/analyze_ab.py` | Historical recorded-data A/B PSD analysis |
 | `revision_workspace/results/` | Measurement and analysis sources from the 2026-10-14 to 2026-10-22 campaigns |
