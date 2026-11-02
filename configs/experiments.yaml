@@ -1,0 +1,10 @@
+# Only the physically released valid recordings.
+cord_length_20261101:
+  ordered_lengths_m: [1, 2, 3, 4]
+  wav_count: 4
+wall_pairs_20261101:
+  pairs: [[1, 2], [3, 4], [5, 6]]
+  no_wall_ordinals: [1, 3, 5]
+  wall_present_ordinals: [2, 4, 6]
+  wav_count: 6
+historical_code_cutoff: '2026-10-22'

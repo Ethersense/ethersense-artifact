@@ -1,0 +1,30 @@
+[
+  {
+    "source": "ethersense_supplemental/code/build_deliverables.py",
+    "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  },
+  {
+    "source": "ethersense_supplemental/code/remote_transport.py",
+    "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  },
+  {
+    "source": "ethersense_k4_20261016/code/build_deliverables_k4.py",
+    "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  },
+  {
+    "source": "ethersense_k4_20261016/code/package_k4.py",
+    "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  },
+  {
+    "source": "ethersense_deep_20261020/code/tenday_20mhz.py",
+    "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  },
+  {
+    "source": "ethersense_stability_20261021/code/remote_stability.py",
+    "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  },
+  {
+    "source": "ethersense_stability_20261021/code/report_stability.py",
+    "reason": "Host-specific transfer/scheduling or internal document packaging; not a measurement algorithm."
+  }
+]

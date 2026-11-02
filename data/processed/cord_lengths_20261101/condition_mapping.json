@@ -1,0 +1,25 @@
+{
+  "confirmed_by": "author in current conversation",
+  "included": [
+    {
+      "file": "02-11-38_20000000Hz.wav",
+      "length_m": 1,
+      "pcm_sha256": "35b59819a386d419cb751c45f7b16035fb55df2c5525c2499552e2510c12e6ce"
+    },
+    {
+      "file": "02-11-42_20000000Hz.wav",
+      "length_m": 2,
+      "pcm_sha256": "0d68bcdcd93218f7cd0c68b8390b1d33285ddc86464506b90a1750652fadfdf1"
+    },
+    {
+      "file": "02-11-46_20000000Hz.wav",
+      "length_m": 3,
+      "pcm_sha256": "aeaa7c292320b6f474691a676e33d515d0348f0a934d573f1e99c137d648de50"
+    },
+    {
+      "file": "02-11-52_20000000Hz.wav",
+      "length_m": 4,
+      "pcm_sha256": "31da5d54a396fc011f25a69bbc088bf986f6439aa83fec010433400a8b9e3b58"
+    }
+  ]
+}

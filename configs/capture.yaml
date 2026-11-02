@@ -1,0 +1,13 @@
+# Dataset-header facts only. Unknown gains, geometry and device/state are not inferred.
+released_wav:
+  format: 'two-channel unsigned 8-bit PCM, RIFF/RF64'
+  sample_rate_hz: 20000000
+  channels: 2
+  bits_per_sample: 8
+  power_units: 'relative digital units; not dBm'
+filename_center_labels_hz:
+  cord_length_20261101: 20000000
+  wall_pairs_20261101: 20038000
+capture_gains: null
+device_and_state: null
+new_wall_geometry: null

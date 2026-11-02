@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# --- large recordings and derived binaries ---------------------------------
+# Keep the layout and the documentation in Git; keep the 35 GB of IQ out of it.
+# (A single .wav is 70-330 MB, above GitHub's 100 MB file limit; use Git LFS or
+#  DVC if you really need the recordings versioned.)
+data/raw/**/*.cs8
+data/raw/**/*.wav
+data/raw/**/*.zip
+data/processed/**/*.npz
+!data/raw/README.md
+
+# Explicitly released original archives (stored with Git LFS).
+!data/raw/cord_length_20261101/cable_lengths_1to4m.zip
+!data/raw/wall_pairs_20261101/2026_11_02.zip
+
+# Local execution outputs and private access material.
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+.ssh/
+revision_workspace/attachments/

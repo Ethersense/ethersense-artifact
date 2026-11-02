@@ -1,0 +1,50 @@
+{
+  "comb_spacing_fit_hz": 55798.52923351552,
+  "max_lattice_residual_hz": 159.2595755465445,
+  "pairs": [
+    {
+      "pair": 1,
+      "n_comb_candidates": 23,
+      "median_peak_wall_minus_no_wall_db": -3.0013993226849465,
+      "peak_delta_range_db": [
+        -3.345226838620661,
+        -2.091957977757744
+      ],
+      "median_contrast_delta_db": -3.183170743193841,
+      "median_excess_peak_energy_delta_db": -3.19783439172122,
+      "max_peak_shift_hz": 305.17578125,
+      "median_peak_shift_hz": 0.0,
+      "all_peaks_weaken": true
+    },
+    {
+      "pair": 2,
+      "n_comb_candidates": 23,
+      "median_peak_wall_minus_no_wall_db": -4.950167450004514,
+      "peak_delta_range_db": [
+        -5.694254831307333,
+        -3.757615974119034
+      ],
+      "median_contrast_delta_db": -4.680425628532873,
+      "median_excess_peak_energy_delta_db": -5.328096732466849,
+      "max_peak_shift_hz": 305.17578125,
+      "median_peak_shift_hz": 0.0,
+      "all_peaks_weaken": true
+    },
+    {
+      "pair": 3,
+      "n_comb_candidates": 23,
+      "median_peak_wall_minus_no_wall_db": -3.015568747173319,
+      "peak_delta_range_db": [
+        -3.380314418673663,
+        -2.065053177876237
+      ],
+      "median_contrast_delta_db": -2.6917849442722144,
+      "median_excess_peak_energy_delta_db": -3.2005229343231827,
+      "max_peak_shift_hz": 305.17578125,
+      "median_peak_shift_hz": 0.0,
+      "all_peaks_weaken": true
+    }
+  ],
+  "single_line_offset_hz": -38146.97265625,
+  "notes": "23 of the top 24 peaks fit a roughly 55.8 kHz lattice; the remaining -38.15 kHz candidate does not. Candidate selection uses recording 1 only. No source attribution."
+}

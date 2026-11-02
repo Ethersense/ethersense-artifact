@@ -1,0 +1,6 @@
+# Actual archives released in this batch. All paths are relative to the repository root.
+series:
+  cord_length_20261101: data/raw/cord_length_20261101
+  wall_pairs_20261101: data/raw/wall_pairs_20261101
+metadata: data/metadata/release_datasets.json
+historical_code: revision_workspace/results

@@ -1,0 +1,619 @@
+[
+  {
+    "path": "revision_workspace/results/ethersense_supplemental/code/analyze_supplemental.py",
+    "origin": "6855e11ab49c/results/ethersense_supplemental/code/analyze_supplemental.py",
+    "source_sha256": "ac2b81dae1a9412c45a043fefd06d120b1fc3b98e6d3b205a51ff05118fd3e03",
+    "published_sha256": "ac2b81dae1a9412c45a043fefd06d120b1fc3b98e6d3b205a51ff05118fd3e03",
+    "bytes": 22653,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_supplemental/code/audit_supplemental.py",
+    "origin": "6855e11ab49c/results/ethersense_supplemental/code/audit_supplemental.py",
+    "source_sha256": "c86c6d55f180fe30e18d7bef489090ef9dc097b6118e815a37fafd1edb58bd2f",
+    "published_sha256": "c86c6d55f180fe30e18d7bef489090ef9dc097b6118e815a37fafd1edb58bd2f",
+    "bytes": 8993,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_supplemental/code/compute_spectra.py",
+    "origin": "6855e11ab49c/results/ethersense_supplemental/code/compute_spectra.py",
+    "source_sha256": "3e1cba4f235d9429db7de8b7063ad279b83610844cd2f1b8169e7043bfc280ff",
+    "published_sha256": "3e1cba4f235d9429db7de8b7063ad279b83610844cd2f1b8169e7043bfc280ff",
+    "bytes": 9713,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_supplemental/code/plot_supplemental.py",
+    "origin": "6855e11ab49c/results/ethersense_supplemental/code/plot_supplemental.py",
+    "source_sha256": "75a18aedcf42e0b2e6a1c2f52de9dbaea819f99bfee30c484aab1f2146458b12",
+    "published_sha256": "75a18aedcf42e0b2e6a1c2f52de9dbaea819f99bfee30c484aab1f2146458b12",
+    "bytes": 15640,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/analyze_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/analyze_k4.py",
+    "source_sha256": "0d538387ed991b830a09bb33694eec411079ab207a6bdfffc9869321637d3239",
+    "published_sha256": "0d538387ed991b830a09bb33694eec411079ab207a6bdfffc9869321637d3239",
+    "bytes": 31920,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/audit_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/audit_k4.py",
+    "source_sha256": "df4a276a73b2a87b437573e2df790a8032ace59a764432ebac769ce3e8cd8034",
+    "published_sha256": "df4a276a73b2a87b437573e2df790a8032ace59a764432ebac769ce3e8cd8034",
+    "bytes": 15502,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/paperplot.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/paperplot.py",
+    "source_sha256": "785c8e51f2dfbc2b040408c9d637ab93178c6babd94c6a88b1864ae76aa0af2b",
+    "published_sha256": "af896faa8bf610b3bdf1927324293e3d679bf7893168f0af72e108f206599ae5",
+    "bytes": 24318,
+    "edits": [
+      "Removed standalone demonstration and its generated/example data.",
+      "Replaced cosmetic point jitter with deterministic offsets; measurement values are unchanged."
+    ]
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/plot_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/plot_k4.py",
+    "source_sha256": "6de59e699e30f18c23ac4e13bf3d7b17a2644594b0dfd35fba9a0cf8cda28627",
+    "published_sha256": "6de59e699e30f18c23ac4e13bf3d7b17a2644594b0dfd35fba9a0cf8cda28627",
+    "bytes": 17760,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/README.md",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/README.md",
+    "source_sha256": "ab6807d79a81c3add0faa1a5475813938824d3e64b5d94d763fe826b96dc7ca8",
+    "published_sha256": "ab6807d79a81c3add0faa1a5475813938824d3e64b5d94d763fe826b96dc7ca8",
+    "bytes": 1585,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/register_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/register_k4.py",
+    "source_sha256": "a1b79aea337a172bd0208a6facddec53b0ce9e61b3c3955ebf2a938667460d16",
+    "published_sha256": "a1b79aea337a172bd0208a6facddec53b0ce9e61b3c3955ebf2a938667460d16",
+    "bytes": 5183,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/remote_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/remote_k4.py",
+    "source_sha256": "473609c69f8e3aba6e8def6435fc0cfef97f05a79c2d688e6ff4ed4a98f453d5",
+    "published_sha256": "473609c69f8e3aba6e8def6435fc0cfef97f05a79c2d688e6ff4ed4a98f453d5",
+    "bytes": 2221,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/runtime_limits.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/runtime_limits.py",
+    "source_sha256": "17c08a988875aced11ae53f494cd7da6f92696ca0899fcf00b18d3445f8d3cb6",
+    "published_sha256": "17c08a988875aced11ae53f494cd7da6f92696ca0899fcf00b18d3445f8d3cb6",
+    "bytes": 507,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/summarize_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/summarize_k4.py",
+    "source_sha256": "3bac1d481af34283efc8363ba8425a53cd5d3855ccf6a3a08d80d2c5d82166bb",
+    "published_sha256": "3bac1d481af34283efc8363ba8425a53cd5d3855ccf6a3a08d80d2c5d82166bb",
+    "bytes": 8304,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/update_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/update_k4.py",
+    "source_sha256": "84318e3f7b5c2847365aadfe94318429645cd2da57cc37ffc8e00ed954163ec7",
+    "published_sha256": "84318e3f7b5c2847365aadfe94318429645cd2da57cc37ffc8e00ed954163ec7",
+    "bytes": 3528,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/verified_rf64.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/verified_rf64.py",
+    "source_sha256": "a43e20610e47bd64f84bc1e6a0f7aeb2cc65ef0369fbb434ac0a0b05fecb8f08",
+    "published_sha256": "a43e20610e47bd64f84bc1e6a0f7aeb2cc65ef0369fbb434ac0a0b05fecb8f08",
+    "bytes": 2777,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/verified_welch.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/verified_welch.py",
+    "source_sha256": "5e65b303856bcd7767ac4fbc5e433400b5d85f52784a36098c81ead750499e94",
+    "published_sha256": "5e65b303856bcd7767ac4fbc5e433400b5d85f52784a36098c81ead750499e94",
+    "bytes": 10384,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/verify_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/verify_k4.py",
+    "source_sha256": "23846e05129d90e5227178fc85d4197324ec5686ab7c326a937c1bd5151070e6",
+    "published_sha256": "23846e05129d90e5227178fc85d4197324ec5686ab7c326a937c1bd5151070e6",
+    "bytes": 8582,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_deep_20261020/code/deep_features.py",
+    "origin": "6855e11ab49c/results/ethersense_deep_20261020/code/deep_features.py",
+    "source_sha256": "6e058fefff4893e2b6c66e631cf0b45a9de6bc890ede1916a5f59c6d7c02736b",
+    "published_sha256": "6e058fefff4893e2b6c66e631cf0b45a9de6bc890ede1916a5f59c6d7c02736b",
+    "bytes": 7127,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_stability_20261021/code/analyze_stability.py",
+    "origin": "6855e11ab49c/results/ethersense_stability_20261021/code/analyze_stability.py",
+    "source_sha256": "48fb7488fe32e2e89ad6280f1cd89e0ff60d56bbfbd0698ee0efc059884a6aee",
+    "published_sha256": "48fb7488fe32e2e89ad6280f1cd89e0ff60d56bbfbd0698ee0efc059884a6aee",
+    "bytes": 6914,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_stability_20261021/code/index_stability.py",
+    "origin": "6855e11ab49c/results/ethersense_stability_20261021/code/index_stability.py",
+    "source_sha256": "a7235cbd3f2a4e6ff881ed18a23aad5eb82c17bb388735f99f8a2456bcea3d80",
+    "published_sha256": "a7235cbd3f2a4e6ff881ed18a23aad5eb82c17bb388735f99f8a2456bcea3d80",
+    "bytes": 3209,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_stability_20261021/code/plot_stability.py",
+    "origin": "6855e11ab49c/results/ethersense_stability_20261021/code/plot_stability.py",
+    "source_sha256": "7d1f229fe6352781dc62c486b8be0d19af9aa3c9ae4db35ff08e18801a68e636",
+    "published_sha256": "7d1f229fe6352781dc62c486b8be0d19af9aa3c9ae4db35ff08e18801a68e636",
+    "bytes": 3101,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/analyze_wifi.py",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/analyze_wifi.py",
+    "source_sha256": "c5be876296667e69d48c893d4c3c022f5a96387d9a3a796896a357342ba2c17f",
+    "published_sha256": "c5be876296667e69d48c893d4c3c022f5a96387d9a3a796896a357342ba2c17f",
+    "bytes": 4560,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/offline_check.py",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/offline_check.py",
+    "source_sha256": "8df8e58d410b4a95cf3157aaba291665f134e169d7ef2fc9cae1bb187f8587ad",
+    "published_sha256": "8df8e58d410b4a95cf3157aaba291665f134e169d7ef2fc9cae1bb187f8587ad",
+    "bytes": 1531,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/bench_wifi.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/bench_wifi.sh",
+    "source_sha256": "48f00da94c82aa92512ef06d6443580022800ccb4b0d0fc383023ff273c7284f",
+    "published_sha256": "48f00da94c82aa92512ef06d6443580022800ccb4b0d0fc383023ff273c7284f",
+    "bytes": 1586,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/bench_wifi2.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/bench_wifi2.sh",
+    "source_sha256": "53845c6ef46b4c535526ddf1196343e7a4c53ab3004044075439b9a346287b31",
+    "published_sha256": "53845c6ef46b4c535526ddf1196343e7a4c53ab3004044075439b9a346287b31",
+    "bytes": 1643,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/bench_wifi3.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/bench_wifi3.sh",
+    "source_sha256": "2c8041e1331e735da42c2fd924bfe59688fbbab06f5c85cd59e1a971e8363a37",
+    "published_sha256": "2c8041e1331e735da42c2fd924bfe59688fbbab06f5c85cd59e1a971e8363a37",
+    "bytes": 1725,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/online_bench.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/online_bench.sh",
+    "source_sha256": "440caaab95c60dbb77a8a39fabcef9108321bd59a828b24e7b4cf6ffe566c38e",
+    "published_sha256": "440caaab95c60dbb77a8a39fabcef9108321bd59a828b24e7b4cf6ffe566c38e",
+    "bytes": 2831,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/analyze_protected.py",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/analyze_protected.py",
+    "source_sha256": "7a9eb5cf3cdc340d9d3673bb3098faa791146b8b12bf6752ad4009db9034ca01",
+    "published_sha256": "7a9eb5cf3cdc340d9d3673bb3098faa791146b8b12bf6752ad4009db9034ca01",
+    "bytes": 7382,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/cooling_prepare.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/cooling_prepare.sh",
+    "source_sha256": "b12dedbb9bf32c72a1fea1e07819a075984b8e7c675a634d9b34a0afbe9bf5cc",
+    "published_sha256": "b12dedbb9bf32c72a1fea1e07819a075984b8e7c675a634d9b34a0afbe9bf5cc",
+    "bytes": 858,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/cooling_restore.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/cooling_restore.sh",
+    "source_sha256": "62076ae2abe67842b342a9a666545fb791db3dd5102b3cd4520657f6a56c6f36",
+    "published_sha256": "62076ae2abe67842b342a9a666545fb791db3dd5102b3cd4520657f6a56c6f36",
+    "bytes": 902,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/es_probe.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/es_probe.sh",
+    "source_sha256": "960255c2996b90e80b7c6f859caca977216776ad590ed036bdc366e6c0637cfb",
+    "published_sha256": "960255c2996b90e80b7c6f859caca977216776ad590ed036bdc366e6c0637cfb",
+    "bytes": 711,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/es_trial.sh",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/es_trial.sh",
+    "source_sha256": "4c94fed53181a9958bb04f0808c632feb489ab0b0f148785699c4685221b6497",
+    "published_sha256": "4c94fed53181a9958bb04f0808c632feb489ab0b0f148785699c4685221b6497",
+    "bytes": 5258,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/orchestrate_protected.ps1",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/orchestrate_protected.ps1",
+    "source_sha256": "85ec666eafdb43d81e5c130d440f4e1894f2bc3e6d24350292a1cce49ffa67bc",
+    "published_sha256": "85ec666eafdb43d81e5c130d440f4e1894f2bc3e6d24350292a1cce49ffa67bc",
+    "bytes": 12361,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/preflight_protected.ps1",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/preflight_protected.ps1",
+    "source_sha256": "8047b81fcb2a15c860d3aec6fa4116083947af7fce0908bc94a6b6c3bcdec9c1",
+    "published_sha256": "8047b81fcb2a15c860d3aec6fa4116083947af7fce0908bc94a6b6c3bcdec9c1",
+    "bytes": 1965,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_bench_20261020/code/v4_protected/postcheck_protected.ps1",
+    "origin": "6855e11ab49c/results/ethersense_bench_20261020/code/v4_protected/postcheck_protected.ps1",
+    "source_sha256": "331a15fabf7ad1ec2a10b498457c8ca717a0a38b8b020048cbefac7c6676291b",
+    "published_sha256": "331a15fabf7ad1ec2a10b498457c8ca717a0a38b8b020048cbefac7c6676291b",
+    "bytes": 1390,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/alongline.py",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/alongline.py",
+    "source_sha256": "f1fa8a0fbf205a1419332335de574ad213e25530e8d7985f27ca9a2f9da38361",
+    "published_sha256": "f1fa8a0fbf205a1419332335de574ad213e25530e8d7985f27ca9a2f9da38361",
+    "bytes": 6879,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/analyze_wifi.py",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/analyze_wifi.py",
+    "source_sha256": "b3d5e59f8d8a730124de4928502b9314c7a2de4d14b1f38ecf97e9332e7c2286",
+    "published_sha256": "002ff3db75246fb33b0873d59284b5a10f84897613b5784e7add9849aceefe7d",
+    "bytes": 9003,
+    "edits": [
+      "Import the bundled pure analysis helpers instead of the private host transport module."
+    ]
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/check_reference_specificity.py",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/check_reference_specificity.py",
+    "source_sha256": "c4839ccb56626934d10dadcc73df03288b909e23605b79d9e1ccac3476a4995b",
+    "published_sha256": "acf01f03d0ab64d4f131dd68f8fd8909fc80c49cb112227c8a65f1e510c570d8",
+    "bytes": 2136,
+    "edits": [
+      "Import the bundled pure analysis helpers instead of the private host transport module."
+    ]
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/cooling_prepare.sh",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/cooling_prepare.sh",
+    "source_sha256": "b12dedbb9bf32c72a1fea1e07819a075984b8e7c675a634d9b34a0afbe9bf5cc",
+    "published_sha256": "b12dedbb9bf32c72a1fea1e07819a075984b8e7c675a634d9b34a0afbe9bf5cc",
+    "bytes": 858,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/cooling_restore.sh",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/cooling_restore.sh",
+    "source_sha256": "62076ae2abe67842b342a9a666545fb791db3dd5102b3cd4520657f6a56c6f36",
+    "published_sha256": "62076ae2abe67842b342a9a666545fb791db3dd5102b3cd4520657f6a56c6f36",
+    "bytes": 902,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/es_probe.sh",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/es_probe.sh",
+    "source_sha256": "960255c2996b90e80b7c6f859caca977216776ad590ed036bdc366e6c0637cfb",
+    "published_sha256": "960255c2996b90e80b7c6f859caca977216776ad590ed036bdc366e6c0637cfb",
+    "bytes": 711,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/es_wifi_trial.sh",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/es_wifi_trial.sh",
+    "source_sha256": "cd501e33f919248e939d773e755f9d93dfccfb48ca939749aff73b7e62d94691",
+    "published_sha256": "cd501e33f919248e939d773e755f9d93dfccfb48ca939749aff73b7e62d94691",
+    "bytes": 4325,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/orchestrate_wifi_detection.ps1",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/orchestrate_wifi_detection.ps1",
+    "source_sha256": "284ed59b60213d397f946629fd678ac9b949fcb9fe7a4f1eb1579362fecc64f4",
+    "published_sha256": "284ed59b60213d397f946629fd678ac9b949fcb9fe7a4f1eb1579362fecc64f4",
+    "bytes": 14031,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/preflight.ps1",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/preflight.ps1",
+    "source_sha256": "c14f769323086704ddd6e69f94ebdf61f1ece97f414c984c973a69397f975c60",
+    "published_sha256": "c14f769323086704ddd6e69f94ebdf61f1ece97f414c984c973a69397f975c60",
+    "bytes": 1646,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/postflight.ps1",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/postflight.ps1",
+    "source_sha256": "9e5709042b260e20176811e1cc3ba8fa54cb72032e7203addbb2676f5376c7bc",
+    "published_sha256": "9e5709042b260e20176811e1cc3ba8fa54cb72032e7203addbb2676f5376c7bc",
+    "bytes": 1126,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/plot_alongline.py",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/plot_alongline.py",
+    "source_sha256": "d0c19bcf83f39f7c4e4270184e011bc307e9d4fca4f5198044f7a9d57bb9db5b",
+    "published_sha256": "ce3abd23073c2d68465484bab718e2d50fff5be4d7dc97ebbd1899f685e5cf60",
+    "bytes": 2787,
+    "edits": [
+      "Use the bundled local style helper instead of a private skill path."
+    ]
+  },
+  {
+    "path": "revision_workspace/results/ethersense_fullstack_20261022/code/ap_capture_psd.sh",
+    "origin": "6855e11ab49c/results/ethersense_fullstack_20261022/code/ap_capture_psd.sh",
+    "source_sha256": "50a5889c4b8f942a9052b109d3f759378d9af56f83f65db9d14c01eaf1d6b692",
+    "published_sha256": "50a5889c4b8f942a9052b109d3f759378d9af56f83f65db9d14c01eaf1d6b692",
+    "bytes": 1473,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_fullstack_20261022/code/cooling_lease.sh",
+    "origin": "6855e11ab49c/results/ethersense_fullstack_20261022/code/cooling_lease.sh",
+    "source_sha256": "9516a1e329a785cb4dffbf4632c6ed0acbd674103bc6742d51f14ae42dcd4464",
+    "published_sha256": "9516a1e329a785cb4dffbf4632c6ed0acbd674103bc6742d51f14ae42dcd4464",
+    "bytes": 643,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_fullstack_20261022/code/cool_and_check.sh",
+    "origin": "6855e11ab49c/results/ethersense_fullstack_20261022/code/cool_and_check.sh",
+    "source_sha256": "c76c5395edd3d3f353091f6379f05ed5d87951ae27d2387b39d9a4525de32251",
+    "published_sha256": "c76c5395edd3d3f353091f6379f05ed5d87951ae27d2387b39d9a4525de32251",
+    "bytes": 676,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_fullstack_20261022/code/fan_watchdog_fix.sh",
+    "origin": "6855e11ab49c/results/ethersense_fullstack_20261022/code/fan_watchdog_fix.sh",
+    "source_sha256": "2776bc934bb891b5764ceed19675d67ad8785326849234c71deb08bc1fdabc2b",
+    "published_sha256": "2776bc934bb891b5764ceed19675d67ad8785326849234c71deb08bc1fdabc2b",
+    "bytes": 508,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_fullstack_20261022/code/probe_server.py",
+    "origin": "6855e11ab49c/results/ethersense_fullstack_20261022/code/probe_server.py",
+    "source_sha256": "cc840ef9e80f40836c5ca86bba1e4dea6499be7066c1b71d58eaa7c298086dbc",
+    "published_sha256": "cc840ef9e80f40836c5ca86bba1e4dea6499be7066c1b71d58eaa7c298086dbc",
+    "bytes": 14236,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_fullstack_20261022/code/serve_client.py",
+    "origin": "6855e11ab49c/results/ethersense_fullstack_20261022/code/serve_client.py",
+    "source_sha256": "1a52d15d46f2143c490c26bda4c14e31de7587b92656649b477cdc9f8628f52d",
+    "published_sha256": "1a52d15d46f2143c490c26bda4c14e31de7587b92656649b477cdc9f8628f52d",
+    "bytes": 1832,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_fullstack_20261022/code/preflight_cleanup.sh",
+    "origin": "6855e11ab49c/results/ethersense_fullstack_20261022/code/preflight_cleanup.sh",
+    "source_sha256": "763354a7a26a2ab66997c0b1f5e20d8e5410506cb9403d298c48af118c337da9",
+    "published_sha256": "763354a7a26a2ab66997c0b1f5e20d8e5410506cb9403d298c48af118c337da9",
+    "bytes": 509,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/capture_group.ps1",
+    "origin": "HUGO/Desktop/EtherSense/scripts/capture_group.ps1",
+    "source_sha256": "851566d7ac3d10dab3d565a00a14e3b5b72d62f674e78d180a255d2277377934",
+    "published_sha256": "851566d7ac3d10dab3d565a00a14e3b5b72d62f674e78d180a255d2277377934",
+    "bytes": 1066,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/capture_one.sh",
+    "origin": "HUGO/Desktop/EtherSense/scripts/capture_one.sh",
+    "source_sha256": "3f7c3699e5e5befddb43b46f5b29ce91ec558aa28f57bd517ce7fe55bc49b7d5",
+    "published_sha256": "3f7c3699e5e5befddb43b46f5b29ce91ec558aa28f57bd517ce7fe55bc49b7d5",
+    "bytes": 1917,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/deploy_and_test.ps1",
+    "origin": "HUGO/Desktop/EtherSense/scripts/deploy_and_test.ps1",
+    "source_sha256": "86f7ece1c3f3f41feda4862684aaa3adce0c5e51be393d886b22c031ff68644b",
+    "published_sha256": "86f7ece1c3f3f41feda4862684aaa3adce0c5e51be393d886b22c031ff68644b",
+    "bytes": 2537,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/es_common.ps1",
+    "origin": "HUGO/Desktop/EtherSense/scripts/es_common.ps1",
+    "source_sha256": "c8c8072a9607cbb2fd8db49849ddd472f8e4d258845cc50a39dc150ad0a4f813",
+    "published_sha256": "c8c8072a9607cbb2fd8db49849ddd472f8e4d258845cc50a39dc150ad0a4f813",
+    "bytes": 2974,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/diag.sh",
+    "origin": "HUGO/Desktop/EtherSense/scripts/diag.sh",
+    "source_sha256": "e0be7ec29a3fba227c1b48ee0769923bb2c0c11c6c297adf08156a00ab4266ca",
+    "published_sha256": "e0be7ec29a3fba227c1b48ee0769923bb2c0c11c6c297adf08156a00ab4266ca",
+    "bytes": 2332,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/online_bench.sh",
+    "origin": "HUGO/Desktop/EtherSense/scripts/online_bench.sh",
+    "source_sha256": "440caaab95c60dbb77a8a39fabcef9108321bd59a828b24e7b4cf6ffe566c38e",
+    "published_sha256": "440caaab95c60dbb77a8a39fabcef9108321bd59a828b24e7b4cf6ffe566c38e",
+    "bytes": 2831,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/es_psd",
+    "origin": "HUGO/Desktop/EtherSense/scripts/es_psd",
+    "source_sha256": "841199cedeb3881888ffaf52477f2fef4f0b8cbf67e10089efde8f437753ff4e",
+    "published_sha256": "841199cedeb3881888ffaf52477f2fef4f0b8cbf67e10089efde8f437753ff4e",
+    "bytes": 67912,
+    "edits": []
+  },
+  {
+    "path": "src/preprocessing/es_psd.c",
+    "origin": "6855e11ab49c/results/ethersense_mt3000/build/es_psd.c",
+    "source_sha256": "8ea8465f0d77c16e021201be6281dd4b8e9e34a22821307af9dbbafbe64818a1",
+    "published_sha256": "8ea8465f0d77c16e021201be6281dd4b8e9e34a22821307af9dbbafbe64818a1",
+    "bytes": 5281,
+    "edits": []
+  },
+  {
+    "path": "src/features/analyze_ab.py",
+    "origin": "HUGO/Desktop/EtherSense/scripts/analyze_ab.py",
+    "source_sha256": "a0a191ca0b4149f6d037c2ff82fc6ba275d0cdd07aa27e7b2a6287327508f27a",
+    "published_sha256": "a0a191ca0b4149f6d037c2ff82fc6ba275d0cdd07aa27e7b2a6287327508f27a",
+    "bytes": 12082,
+    "edits": []
+  },
+  {
+    "path": "data/raw/wall_pairs_20261101/2026_11_02.zip",
+    "origin": "2634027c4987/attachments/2026_11_02.zip",
+    "source_sha256": "f7ddd584aa0c4120e0d6259157a4ef54e36672ad4ef164b47cb9291fba60813c",
+    "published_sha256": "f7ddd584aa0c4120e0d6259157a4ef54e36672ad4ef164b47cb9291fba60813c",
+    "bytes": 85034564,
+    "edits": []
+  },
+  {
+    "path": "data/processed/cord_lengths_20261101/record_metrics.csv",
+    "origin": "2634027c4987/results/cord_lengths_20261101/confirmed_1to4m/record_metrics.csv",
+    "source_sha256": "23db579a141e535c9cdaec851901de08a569317cdc9eafcdba64c3c6f090108d",
+    "published_sha256": "23db579a141e535c9cdaec851901de08a569317cdc9eafcdba64c3c6f090108d",
+    "bytes": 1663,
+    "edits": []
+  },
+  {
+    "path": "data/processed/cord_lengths_20261101/peak_tracking.csv",
+    "origin": "2634027c4987/results/cord_lengths_20261101/confirmed_1to4m/peak_tracking.csv",
+    "source_sha256": "21320b4e3a1bbdf040958df020eae14f9044cd22da4d7ce9ef946911a0b75046",
+    "published_sha256": "21320b4e3a1bbdf040958df020eae14f9044cd22da4d7ce9ef946911a0b75046",
+    "bytes": 9730,
+    "edits": []
+  },
+  {
+    "path": "data/processed/cord_lengths_20261101/comparison.json",
+    "origin": "2634027c4987/results/cord_lengths_20261101/confirmed_1to4m/comparison.json",
+    "source_sha256": "b81f155a2d63b5181d83a45769ac0572ae557a4c7a3b2c776246206b9b4c19ff",
+    "published_sha256": "b81f155a2d63b5181d83a45769ac0572ae557a4c7a3b2c776246206b9b4c19ff",
+    "bytes": 12135,
+    "edits": []
+  },
+  {
+    "path": "data/processed/cord_lengths_20261101/condition_mapping.json",
+    "origin": "2634027c4987/results/cord_lengths_20261101/confirmed_1to4m/condition_mapping.json",
+    "source_sha256": "17cec98589c566cfddc4bf3622ada050f50b401a36670341bc2133a187083bbd",
+    "published_sha256": "46d1f83ededbd7aceb1b95a28f8087a00fa57d65389dab120f588e18ad73afc3",
+    "bytes": 723,
+    "edits": [
+      "Publish only included-record mappings."
+    ]
+  },
+  {
+    "path": "data/processed/wall_pairs_20261101/record_metrics.csv",
+    "origin": "2634027c4987/results/wall_pairs_20261101/record_metrics.csv",
+    "source_sha256": "8126a78eb63a70119947e6166192709d0d4d804aacb85e45f85edf6532a048d9",
+    "published_sha256": "8126a78eb63a70119947e6166192709d0d4d804aacb85e45f85edf6532a048d9",
+    "bytes": 2426,
+    "edits": []
+  },
+  {
+    "path": "data/processed/wall_pairs_20261101/reference_peak_tracking.csv",
+    "origin": "2634027c4987/results/wall_pairs_20261101/reference_peak_tracking.csv",
+    "source_sha256": "07fcb190516b52d103533e266309feee8e744ef3f28ff7fe41ce287063bd8045",
+    "published_sha256": "07fcb190516b52d103533e266309feee8e744ef3f28ff7fe41ce287063bd8045",
+    "bytes": 8855,
+    "edits": []
+  },
+  {
+    "path": "data/processed/wall_pairs_20261101/time_blocks.csv",
+    "origin": "2634027c4987/results/wall_pairs_20261101/time_blocks.csv",
+    "source_sha256": "96a3a5dc87a5f5b0eccb2d6823010ffd128f746b7fc4dc353c9e033c96bdccbb",
+    "published_sha256": "96a3a5dc87a5f5b0eccb2d6823010ffd128f746b7fc4dc353c9e033c96bdccbb",
+    "bytes": 3546,
+    "edits": []
+  },
+  {
+    "path": "data/processed/wall_pairs_20261101/feature_summary.json",
+    "origin": "2634027c4987/results/wall_pairs_20261101/feature_summary.json",
+    "source_sha256": "b118621091d14a8b2a34977e08c5b1429e136315508eb3d3330445d8bd56f4a1",
+    "published_sha256": "b118621091d14a8b2a34977e08c5b1429e136315508eb3d3330445d8bd56f4a1",
+    "bytes": 1718,
+    "edits": []
+  },
+  {
+    "path": "data/raw/cord_length_20261101/cable_lengths_1to4m.zip",
+    "origin": "2634027c4987/attachments/电线数据.zip (only four valid entries)",
+    "published_sha256": "5f00f80088006eed45e886c55c587fb46ea03485e43a94da876f64d3966992a4",
+    "bytes": 115837424,
+    "edits": [
+      "Invalid fifth and empty sixth entries omitted from released archive. Valid WAV member bytes preserved; hashes are in release_datasets.json."
+    ]
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/paperplot.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/paperplot.py",
+    "source_sha256": "785c8e51f2dfbc2b040408c9d637ab93178c6babd94c6a88b1864ae76aa0af2b",
+    "published_sha256": "af896faa8bf610b3bdf1927324293e3d679bf7893168f0af72e108f206599ae5",
+    "bytes": 24318,
+    "edits": [
+      "Removed standalone demonstration and its generated/example data.",
+      "Replaced cosmetic point jitter with deterministic offsets; measurement values are unchanged."
+    ]
+  },
+  {
+    "path": "revision_workspace/results/ethersense_k4_20261016/code/run_remote_k4.py",
+    "origin": "6855e11ab49c/results/ethersense_k4_20261016/code/run_remote_k4.py",
+    "source_sha256": "ee9be955a2fe178fa1dc103dcfb6b6b3d6c2f78c44b72ca0216773f58127cc62",
+    "published_sha256": "ee9be955a2fe178fa1dc103dcfb6b6b3d6c2f78c44b72ca0216773f58127cc62",
+    "bytes": 3247,
+    "edits": []
+  },
+  {
+    "path": "revision_workspace/results/ethersense_wifi_detection_20261021/code/analysis_helpers.py",
+    "origin": "6855e11ab49c/results/ethersense_wifi_detection_20261021/code/manage.py (BASE and pure sha/verify/make_psd functions)",
+    "source_sha256": "574a899323b87d9fa323f1c285ceba76facfe9cc5329fb98515ee0a077abcd67",
+    "published_sha256": "c947d665c7a66ea35fb33f7af6cfad97a9d11e26b1b89e909a1aa871ff5ae793",
+    "bytes": 1995,
+    "edits": [
+      "Extracted only pure analysis functions, AST-identical; excluded private SSH transport and campaign launcher."
+    ]
+  }
+]
